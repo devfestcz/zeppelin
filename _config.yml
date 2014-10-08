@@ -7,7 +7,7 @@ destination: _site/static
 
 # Site Settings
 title: "DevFest Praha 2014"
-email: "jirkapenzes@gmail.com"
+email: "info@gug.cz"
 description: "DevFest Praha 2014, to je den plný zážitků, technologií, networkingu, přednášek a kódu. Od vývojářů pro vývojáře."
 baseurl: ""
 url: "http://gdg-x.github.io"
@@ -39,10 +39,10 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
 
 bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci dostatávat informace"}
+ - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 rightNavigationButtons:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci dostatávat informace"}
+ - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # Hero Block
@@ -52,26 +52,27 @@ eventDate: "Sobota 22. listopadu 2014"
 typeoutTextValues: '"zážitků", "technologií", "networkingu", "přednášek", "kódu"'
 typeoutFallback: "zážitků"
 heroButtons:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci dostat informace jako první"}
+ - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Na co se můžu těšit na DevFestu Praha 2014?"
+aboutText: "V prvé řadě poctivou akci od vývojářů, pro vývojáře! Třetí ročník podzimního vývojářského festivalu opět nabíjíme Google technologiemi až k prasknutí. Mimo zajímavé speakery se můžete i letos třást nedočkavostí nad bohatým doprovodným programem, hříčkami z dílny GUGu a především nad setkáním se skvělými lidi a kamarády z oboru, které jste dlouho neviděli. Jednoduše sem hodláme dostat vše, co si jen lze pod slovy Dev (Developers) a Fest (Festival) představit. Registrace je jpovinná, ale vstup je úplně zadarmo."
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lot's of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day free-style hackaton! Want some real teambuilding on friday? Grab your team and join our hackathon!" }
+ - {title: "Přednášky", image: "conference.jpg", text: "Čeká na vás největší koncentrace Google related obsahu na jednom místě - od mobilního a webového vývoje, přes cloud, bezpečnost či open source, až po kreativní práci s velkými daty, analytiku a mnoho dalšího. To vše z úst skvělých českých i zahraničních speakerů, ze kterých vám bude padat čelist." }
+ - {title: "Workshopy", image: "workshop.jpg", text: "Máme jasný cíl - předat vám mnohem více praktických zkušeností než v předchozích letech. Naší hlavní zbraní budou právě workshopy a profíci, kteří je s námi připravují. Přibalte si proto sebou i notebooky, ať odcházíte nejenom s plnou hlavou inspirací, ale taky kupou kulervoucích projektů." }
+ - {title: "Zážitky", image: "hackathon.jpg", text: "Jak by asi vypadal festival bez pořádné porce zážitků a zábavy? Zkoušeli jsme si to představit a vznikl nám z toho dobrý námět na horor. Takže abychom si uchovali autorská práva a mohli jej případně později prodat, vydáme se přesně opačnou cestou. Jak zážitků tak zábavy bude na DevFestu plno!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "550", specialCharacter: "+", info: "účastníků", detail: "odevšad"}
+ - {count: "10", specialCharacter: "+", info: "hodin", detail: "vývojářského nebe"}
+ - {count: "20", specialCharacter: "+", info: "speakerů", detail: "z ČR i zahraničí"}
+ - {count: "3", specialCharacter: "", info: "paralelní tracky", detail: "plus mnoho dalšího"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Novinky z příprav"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
@@ -80,29 +81,28 @@ rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
+locationBlockTitle: "Lokalita"
+eventLocationName: "Fakulta stavební ČVUT"
 eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
+eventStreetAddress: "Thákurova 2077/7"
+eventAddressLocality: "Praha 6"
+eventAddressLocalityRegion: "Praha"
+eventPostalCode: "16000"
+eventAddressCountry: "Česká republika"
 eventStartTime: "2014-10-25T10:00"
 eventDoorTime: "09:00"
 eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventPlaceCoordinates: "50.104245, 14.388024"
+mapCenterCoordinates: "50.104245, 14.388024"
+mapMobileCenterCoordinates: "50.104245, 14.388024"
 
 # Venue Block
 venueBlockTitle: "Venue"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Fakulta stavební ČVUT"
+venueFeatures: ["Skvělé přednáškové sály", "Spousta prostoru na doprovodný program", "Kousek od metra Dejvická"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"

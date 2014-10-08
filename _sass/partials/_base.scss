@@ -54,4 +54,4 @@ $image-dir: "../img";
 $sprites-dir: $image-dir + "/sprites";
 $logos-sprite: $sprites-dir + "/logos.svg";
 
-@import "modules/all";
+@import "../modules/all";

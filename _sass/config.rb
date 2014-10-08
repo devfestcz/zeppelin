@@ -1,6 +1,6 @@
 require 'sass-media_query_combiner'
 require 'autoprefixer-rails'
-require "./remove-all-comments-monkey-patch"
+require "./_sass/remove-all-comments-monkey-patch"
 
 on_stylesheet_saved do |file|
   css = File.read(file)

@@ -107,8 +107,9 @@ venueFeatures: ["Skvělé přednáškové sály", "Spousta prostoru na doprovodn
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+twitterHashTag: "DevFestCZ"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+#""
 
 # Partners Block
 organizersTitle: "Organizers"

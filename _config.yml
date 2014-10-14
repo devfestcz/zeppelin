@@ -107,19 +107,22 @@ venueFeatures: ["Skvělé přednáškové sály", "Spousta prostoru na doprovodn
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+twitterHashTag: "DevFestCZ"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+#""
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+organizersTitle: "Organizuje"
+#partnersTitle: "Partners"
+partnersC4sponsorsButton: "Stát se partnerem"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Chcete nejnovější DevFest info pohodlně do mailu?"
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: ""
+subscribeBtnValue: "Pošli"
+subscribeEmailPlaceHolder: "your@email.com"
 
 # Tickets Block
 ticketsTitle: "Pricetable"

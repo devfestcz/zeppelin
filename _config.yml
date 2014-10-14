@@ -112,8 +112,8 @@ twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_int
 #""
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
+organizersTitle: "Organizuje"
+#partnersTitle: "Partners"
 partnersC4sponsorsButton: "Stát se partnerem"
 
 # Subscribe Block
@@ -121,7 +121,7 @@ subscribeImage: "subscribe.jpg"
 subscribeTitle: "Chcete nejnovější DevFest info pohodlně do mailu?"
 subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: ""
-subscribeBtnValue: "Odeslat"
+subscribeBtnValue: "Pošli"
 subscribeEmailPlaceHolder: "your@email.com"
 
 # Tickets Block

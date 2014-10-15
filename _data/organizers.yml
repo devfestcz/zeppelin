@@ -1,7 +1,7 @@
 - 
   group: "Main organizer"
   elements: 
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    - {name: "GUG.cz", description: "GUG.cz - společenství skupin lidí se zájmem o Google technologie", link: "http://gug.cz", imageUrl: "gug.svg"}
 #- 
 #  group: "Co-organizers"
 # elements: 

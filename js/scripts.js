@@ -250,8 +250,12 @@
         if (typeof twitterFeedUrl !== 'undefined') {
             $.getJSON(twitterFeedUrl, function(data) {
                 $.each(data, function(i, gist) {
-                    var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + '" target="_blank">@' + gist.user.screen_name + '</a></p></div>';
-                    $('#tweets').append(tweetElement);
+                    if($.isArray(gist))
+                        gist = gist[0];
+                    if(gist.text) {
+                        var tweetElement = '<div class="tweet animated fadeInUp hidden"><p class="tweet-text">' + linkify(gist.text) + '</p><p class="tweet-meta">by <a href="https://twitter.com/' + gist.user.screen_name + '" target="_blank">@' + gist.user.screen_name + '</a></p></div>';
+                        $('#tweets').append(tweetElement);
+                    }
                 });
                 animateTweets();
             });

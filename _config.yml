@@ -39,7 +39,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 navigationLinks:
 
 bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
+ - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 rightNavigationButtons:
  - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
@@ -52,12 +52,12 @@ eventDate: "Sobota 22. listopadu 2014"
 typeoutTextValues: '"zážitků", "technologií", "networkingu", "přednášek", "kódu"'
 typeoutFallback: "zážitků"
 heroButtons:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
+ - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # About Block
 aboutTitle: "Na co se můžu těšit na DevFestu Praha 2014?"
-aboutText: "V prvé řadě poctivou akci od vývojářů, pro vývojáře! Třetí ročník podzimního vývojářského festivalu opět nabíjíme Google technologiemi až k prasknutí. Mimo zajímavé speakery se můžete i letos třást nedočkavostí nad bohatým doprovodným programem, hříčkami z dílny GUGu a především nad setkáním se skvělými lidi a kamarády z oboru, které jste dlouho neviděli. Jednoduše sem hodláme dostat vše, co si jen lze pod slovy Dev (Developers) a Fest (Festival) představit. Registrace je jpovinná, ale vstup je úplně zadarmo."
+aboutText: "V prvé řadě poctivou akci od vývojářů, pro vývojáře! Třetí ročník podzimního vývojářského festivalu opět nabíjíme Google technologiemi až k prasknutí. Mimo zajímavé speakery se můžete i letos třást nedočkavostí nad bohatým doprovodným programem, hříčkami z dílny GUGu a především nad setkáním se skvělými lidi a kamarády z oboru, které jste dlouho neviděli. Jednoduše sem hodláme dostat vše, co si jen lze pod slovy Dev (Developers) a Fest (Festival) představit. <a href='https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform?usp=send_form'>Registrace je povinná</a>, ale vstup je úplně zadarmo."
 aboutBlock:
  - {title: "Přednášky", image: "conference.jpg", text: "Čeká na vás největší koncentrace Google related obsahu na jednom místě - od mobilního a webového vývoje, přes cloud, bezpečnost či open source, až po kreativní práci s velkými daty, analytiku a mnoho dalšího. To vše z úst skvělých českých i zahraničních speakerů, ze kterých vám bude padat čelist." }
  - {title: "Workshopy", image: "workshop.jpg", text: "Máme jasný cíl - předat vám mnohem více praktických zkušeností než v předchozích letech. Naší hlavní zbraní budou právě workshopy a profíci, kteří je s námi připravují. Přibalte si proto sebou i notebooky, ať odcházíte nejenom s plnou hlavou inspirací, ale taky kupou kulervoucích projektů." }

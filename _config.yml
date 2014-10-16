@@ -7,7 +7,7 @@ destination: _site/static
 
 # Site Settings
 title: "DevFest Praha 2014"
-email: "info@gug.cz"
+email: "devfestprague@gmail.com"
 description: "DevFest Praha 2014, to je den plný zážitků, technologií, networkingu, přednášek a kódu. Od vývojářů pro vývojáře."
 baseurl: ""
 url: "http://gdg-x.github.io"

@@ -42,7 +42,7 @@ bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 rightNavigationButtons:
- - {link: "https://docs.google.com/forms/d/1osEbUOgyJIbrWrtlZiUTtsGwTM196zwkRV654lH9ixs/viewform", text: "Chci se zdarma registrovat"}
+ - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
  - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # Hero Block

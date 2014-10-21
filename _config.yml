@@ -95,6 +95,7 @@ eventEndTime: "2014-10-25T20:00"
 eventPlaceCoordinates: "50.104245, 14.388024"
 mapCenterCoordinates: "50.104245, 14.388024"
 mapMobileCenterCoordinates: "50.104245, 14.388024"
+eventLocationLink: "http://goo.gl/UvjtAq"
 
 # Venue Block
 venueBlockTitle: "Venue"

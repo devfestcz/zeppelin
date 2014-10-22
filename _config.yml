@@ -57,11 +57,11 @@ heroButtons:
 
 # About Block
 aboutTitle: "Na co se můžu těšit na DevFestu Praha 2014?"
-aboutText: "V prvé řadě poctivou akci od vývojářů, pro vývojáře! Třetí ročník podzimního vývojářského festivalu opět nabíjíme Google technologiemi až k prasknutí. Mimo zajímavé speakery se můžete i letos třást nedočkavostí nad bohatým doprovodným programem, hříčkami z dílny GUGu a především nad setkáním se skvělými lidi a kamarády z oboru, které jste dlouho neviděli. Jednoduše sem hodláme dostat vše, co si jen lze pod slovy Dev (Developers) a Fest (Festival) představit. <a href='https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform?usp=send_form'>Registrace je povinná</a>, ale vstup je úplně zadarmo."
+aboutText: "V prvé řadě na poctivou akci od vývojářů pro vývojáře! Třetí ročník podzimního vývojářského festivalu opět nabíjíme Google technologiemi až k prasknutí. Letos se můžete třást nedočkavostí nejen na zajímavé speakery, ale také na bohatý doprovodný program, hříčky z dílny GUGu, a především na setkání se skvělými lidmi a kamarády z oboru, které jste dlouho neviděli. Jednoduše sem hodláme dostat vše, co si jen lze pod slovy Dev (Developers) a Fest (Festival) představit. Registrace je povinná, ale vstup je úplně zadarmo."
 aboutBlock:
- - {title: "Přednášky", image: "conference.jpg", text: "Čeká na vás největší koncentrace Google related obsahu na jednom místě - od mobilního a webového vývoje, přes cloud, bezpečnost či open source, až po kreativní práci s velkými daty, analytiku a mnoho dalšího. To vše z úst skvělých českých i zahraničních speakerů, ze kterých vám bude padat čelist." }
- - {title: "Workshopy", image: "workshop.jpg", text: "Máme jasný cíl - předat vám mnohem více praktických zkušeností než v předchozích letech. Naší hlavní zbraní budou právě workshopy a profíci, kteří je s námi připravují. Přibalte si proto sebou i notebooky, ať odcházíte nejenom s plnou hlavou inspirací, ale taky kupou kulervoucích projektů." }
- - {title: "Zážitky", image: "hackathon.jpg", text: "Jak by asi vypadal festival bez pořádné porce zážitků a zábavy? Zkoušeli jsme si to představit a vznikl nám z toho dobrý námět na horor. Takže abychom si uchovali autorská práva a mohli jej případně později prodat, vydáme se přesně opačnou cestou. Jak zážitků tak zábavy bude na DevFestu plno!" }
+ - {title: "Přednášky", image: "conference.jpg", text: "Čeká na vás největší koncentrace Google related obsahu na jednom místě – od mobilního a webového vývoje přes cloud, bezpečnost či open source až po kreativní práci s velkými daty, analytiku a mnoho dalšího. To vše z úst skvělých českých i zahraničních speakerů, ze kterých vám bude padat čelist." }
+ - {title: "Workshopy", image: "workshop.jpg", text: "Máme jasný cíl – předat vám mnohem více praktických zkušeností než v předchozích letech. Naší hlavní zbraní budou právě workshopy a profíci, kteří je s námi připravují. Přibalte si proto s sebou i notebooky, ať odcházíte nejenom s plnou hlavou inspirací, ale taky kupou kulervoucích projektů." }
+ - {title: "Zážitky", image: "hackathon.jpg", text: "Jak by asi vypadal festival bez pořádné porce zážitků a zábavy? Zkoušeli jsme si to představit a vznikl nám z toho dobrý námět na horor. Takže abychom si uchovali autorská práva a mohli je případně později prodat, vydáme se přesně opačnou cestou. Jak zážitků, tak zábavy bude na DevFestu plno!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -167,24 +167,20 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://plus.google.com/102751345660146384940", icon: "google-plus"}
+ - {link: "https://twitter.com/GUGcz", icon: "twitter"}
+ - {link: "http://www.facebook.com/pages/GUGcz-Ceska-Google-User-Group/69578781928", icon: "facebook"}
+
 footerBlocks:
  -
-  title: "Links"
+  title: "Odkazy"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+   - {link: "http://www.gug.cz", text: "GUG.cz"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
-  title: "Contacts"
+  title: "Kontakty"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "mailto:devfestprague@gmail.com", text: "devfestprague@gmail.com"}
 
 # Blog
 blogTitle: "Latest news"

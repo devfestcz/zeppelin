@@ -2,11 +2,28 @@
   group: "Ve spolupráci s"
   elements: 
     - {name: "Google", description: "Google", link: "https://www.google.cz/about/", imageUrl: "google.svg"}
+
 - 
   group: "Hlavní mediální partner"
   elements: 
     - {name: "Dotekománie", description: "Dotekománie", link: "http://dotekomanie.cz/", imageUrl: "dotekomanie.png", width: 200}
+
+- 
+  group: "Mediální partneři"
+  elements: 
+    - {name: "RoboDoupě", description: "RoboDoupě", link: "http://robodoupe.cz/", imageUrl: "robodoupe.png", width: 200}
+
 - 
   group: "Za výrazné podpory"
   elements: 
     - {name: "Fakulta stavební ČVUT", description: "Fakulta stavební ČVUT", link: "http://www.fsv.cvut.cz/", imageUrl: "cvut.png", width: 250}
+
+- 
+  group: "Hlavní partner MachineRoom"
+  elements: 
+    - {name: "Juicimo", description: "Juicimo", link: "http://www.juicymo.cz/", imageUrl: "juicimo.png", width: 220}
+
+- 
+  group: "Partner MachineRoom"
+  elements: 
+    - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}

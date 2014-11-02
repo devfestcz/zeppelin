@@ -1,0 +1,22 @@
+<section id="sections" class="sections image-section parallax" style="background-image: url(/img/sections-background/rockstar-speakers.jpg);">
+	<div class="overlay solid-overlay"></div>
+	<div class="content-wrapper">
+		<div class="col-lg-10 col-lg-offset-1 sections-list">
+			<h3>{{ site.sectionsTitle }}</h3>
+			{% assign animationDelay = 0 %}
+			{% for section in site.sections %}
+			<div class="col-md-3 col-xs-6 sections-item animated hiding" data-animation="fadeInUp" data-delay="{{ animationDelay }}">
+				<div class="section">
+					<a href="{{ section.link }}">
+						<div class="flow-img img-circle section-img" style="background-image: url(/img/people/RobinPokorny.jpg)"></div>
+						<div class="name">{{ section.name }}</div>
+					</a>
+				</div>
+			</div>
+			{% assign animationDelay = animationDelay | plus:500 %}
+			{% endfor %}
+			<div class="clearfix visible-xs"></div>
+			<div class="clearfix"></div> 
+		</div>
+	</div>
+</section>

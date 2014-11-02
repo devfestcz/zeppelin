@@ -37,6 +37,10 @@ c4sponsorsUrl: "/assets/DevFest_Praha_2014_predstaveni_partnerum.pdf"
 
 # Navigation
 navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/machineroom/", text: "MachineRoom"}
+ - {permalink: "/businessbuild/", text: "BusinessBuild"}
+ - {permalink: "/geekfun/", text: "GeekFun"}
 
 bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
@@ -77,8 +81,15 @@ latestNewsTitle: "Novinky z příprav"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Můžete se těšit na"
+rockstarSpeakersButtonText: "Zobrazit všechny speakery"
+
+sectionsTitle: "Sekce"
+sections:
+ - {name: "MachineRoom", link: "/machineroom/"}
+ - {name: "BusinessBuild", link: "/businessbuild/"}
+ - {name: "GeekFun", link: "/geekfun/"}
+ - {name: "Women Techmakers", link: "/women-techmakers/"}
 
 # Location Block
 locationBlockTitle: "Lokalita"
@@ -188,7 +199,7 @@ blogCommentsEnabled: true
 discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"
@@ -238,42 +249,62 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
-# Hackathon
-hackathonTitle: "Hackathon"
-enableHackathon: true
+randomSpeakersButtonText: "Zobrazit všechny speakery na DevFestu"
 
-# Hackathon About Block
-aboutHackathonTitle: "Meet our themes"
-hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
- - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
- - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
+# GeekFun
+aboutGeekfunTitle: "Let's geek out!"
+geekfunRows:
+ - {
+  title: "",
+  image: "geekfun-0.jpg",
+  details: "DevFest je složen ze slov developers + festival. A o festivalovou část nepřijdete ani tento rok. Na obrázku vidíte atrium Fakulty Stavební, které se promění doslova v džungli geekovské zábavy. Bude si moci vyzkoušet spoustu starých i nových gadgetů – Googlích i neGooglích. Připravujeme zajímavé kombinace a propojení gadgetů, které jste ještě neviděli. Konkrétní gadgety nebudeme prozrazovat, ať se máte na co těšit. Vše bude formou hry, zapojíme určitě i naše partnery. Takže pokud zrovna nebudete na přednášce, nudit se určitě nebudete a snadno tak potkáte ostatní vývojáře a geeky. Jistě si pamatujete naše divadelní představení na keynote z <a href='http://www.youtube.com/watch?v=pwJk8JpYitw'>předminulého</a> a <a href='http://www.youtube.com/watch?v=wg-gOE8yxro'>minulého</a> roku. Tento rok na keynote nic nebude. We promise ;-<a href='https://www.youtube.com/watch?v=MefZfhxgpZE'>)</a>"
+   }
 
-# Hackathon Judges Block
-judgesImage: "judges.jpg"
-judgesTitle: "Judges"
+# BusinessBuild
+aboutBusinessbuildTitle: "Budujeme ... business!"
+businessbuildRows:
+ - {
+  title: "Budovat, realizovat, monetizovat",
+  image: "geekfun-0.jpg",
+  details: "Na letošním DevFestu se nenaučíte budovat jenom software a hardware. Naučíte se také vybudovat svojí vlastní firmu, realizovat nápady, vést projekty a monetizovat aplikace.<br><br>Připravili jsme pro vás pestrý program, který by vám měl poskytnout dostatek informací k tomu, abyste třeba následující den vyrazili a započali epickou cestu k vlastnímu startupu. Můžete se těšit na spoustu skvělých přednášek a jeden speciální workshop."
+   }
+ - {
+  title: "Přednášky",
+  image: "geekfun-0.jpg",
+  details: "Připravte se na pořádnou dávku informací a motivace od známých podnikatelů, vývojařů a projektových manažerů, kteří se s vámi podělí o své zkušenosti. A komu to nebude stačit, tak ten může po přednáškách rovnou zamířit na workshop, kde budou někteří z přednášejících vystupovat v roli mentorů."
+   }
+ - {
+  title: "Workshop",
+  image: "geekfun-0.jpg",
+  details: "Máte nějaký nápad, který byste chtěli realizovat? Chcete vybudovat vlastní start-up, monetizovat svojí aplikaci, nebo už jste na půli cesty a jen se chcete zeptat na radu? <br><br> Pokud ano, tak přesně pro vás je určen náš workshop, na kterém vám zkušení mentoři odpoví na vaše otázky, poradí vám, čeho se vyvarovat a pomohou vám vytvořit plán, který bude moci sloužit jako odrazový můstek na cestě k vašemu cíli."
+   }
 
-# Hackathon Prizes Block
-prizesTitle: "Prizes"
-prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
-
-# Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Communa"
-hackathonLocationLink: "http://communa.net.ua/"
-hackathonStreetAddress: "1 Halytska St"
-hackathonAddressLocality: "Lviv"
-hackathonAddressLocalityRegion: "Lvivska"
-hackathonPostalCode: "79000"
-hackathonAddressCountry: "Ukraine"
-hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
-hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
-viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "49.840999, 24.031144"
-hackathonMapCenterCoordinates: "49.840696, 24.028754"
-hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
+# MachineRoom
+aboutMachineroomTitle: "Stroje, jež jsme vybudovali...<br>...ožívají na DevFestu!"
+machineroomSpeakersTitle: "Přednášející v MachineRoom"
+machineroomRows:
+ - {
+  title: "Poznáte, co skrývá Open Hardware",
+  image: "machineroom-0.png",
+  details: "MachineRoom vám odhalí tajemství droboučkých přístrojů, z nichž mnohé si můžete sami postavit v kanceláři nebo doma – zkrátka na místě blízkém svému srdci. V MachineRoom a na souvisejících přednáškách budete mít možnost poznat, jak na to."
+   }
+ - {
+  title: "Dotýkejte se a interagujte",
+  image: "machineroom-3.jpg",
+  details: "MachineRoom nebude statickou galerií, ani výstavou. Exponáty budou živé a s mnohými bude možné interagovat. Už nyní se na vaši společnost těší."
+   }
+ - {
+  title: "Ukážeme vám, jak začít, jak se vyznat a jak se propojit",
+  image: "machineroom-2.jpg",
+  details: "MachineRoom na DevFestu bude jedním z míst s největší koncentrací zájemců o Open Hardware a Robotiku v Praze. Budete si moci prohlédnout, co všechno Open Hardware nabízí, a přítomní rádi poradí, kde co sehnat a s čím začít. Je libo Arduino, RaspberryPi, či BeagleBone? A propojením teplotních senzorů nebo robota s vaším Android zařízením to teprve začíná..."
+   }
+machineroomTechnologies:
+ - {title: "Arduino", image: "tech-arduino.png"}
+ - {title: "RaspberryPI", image: "tech-raspberrypi.png"}
+ - {title: "BeagleBone", image: "tech-beaglebone.png"}
+ - {title: "PICAXE", image: "tech-picaxe.png"}
+ - {title: "Artoo.io", image: "tech-artooio.png"}
+ - {title: "Ruby", image: "tech-ruby.png"}
+ - {title: "Swift", image: "tech-swift.jpg"}
+ - {title: "Android", image: "tech-android.png"}
+ - {title: "Android Wear", image: "tech-wear.jpg"}

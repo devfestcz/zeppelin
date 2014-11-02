@@ -21,6 +21,15 @@ $small-hackathon-img-width: 150px;
 		}
 	}
 }
+.machineroom-tech-row {
+	@extend .hackathon-row;
+	margin-top: 50px;
+	margin-bottom: 0;
+
+	.tech {
+		margin-bottom: 50px;
+	}
+}
 .hackathon-img-wrapper {
 	float: left;
     @media (max-width: 767px) {

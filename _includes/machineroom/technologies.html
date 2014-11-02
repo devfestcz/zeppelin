@@ -1,0 +1,20 @@
+<!-- MachineRoom Technologies Section -->
+<section id="about-hackathon" class="about-hackathon">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <h3>Technologie</h3>
+            <h4>jež v MachineRoom dávají železu život!<h4>
+            <div class="machineroom-tech-row col-md-12">
+                {% for row in site.machineroomTechnologies %}
+                <div class="tech col-md-4">
+                    <div style="height: 120px">
+                        <img src="{{ site.baseurl }}/img/machineroom/{{ row.image }}" title="{{ row.title }}">
+                    </div>
+                    <div class="name">{{ row.title }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End MachineRoom Technologies Section -->

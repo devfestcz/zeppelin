@@ -18,6 +18,9 @@ $figcaption-color: #3c4a50;
                 }
             }
         }
+        h2 {
+            text-shadow: none;
+        }
         h2, figcaption, figcaption > a {
             transform: translateY(0);
             color: #3c4a50;
@@ -87,6 +90,7 @@ $figcaption-color: #3c4a50;
             transform: translateY(-250%);
             transition-delay: .05s;
             color: #fff;
+            text-shadow: 1px 1px 2px #000;
             @media (max-width: 767px) {
                 transform: translateY(0); 
                 color: #3c4a50;

@@ -3696,13 +3696,18 @@ nav li a.current, nav li a:hover {
   font-size: 18.2px;
   margin: 0 0 15px;
   color: #03a9f4;
+}/* line 22, ../_sass/partials/_sections.scss */
+.sections a {
+  text-decoration: none;
+  color: white;
 }
-/* line 22, ../_sass/partials/_sections.scss */
+
+/* line 27, ../_sass/partials/_sections.scss */
 .section {
   padding-bottom: 13px;
 }
 
-/* line 25, ../_sass/partials/_sections.scss */
+/* line 30, ../_sass/partials/_sections.scss */
 .section-img {
   width: 140px;
   height: 140px;
@@ -6510,7 +6515,7 @@ nav li a.current, nav li a:hover {
     font-size: 16px;
   }
 
-  /* line 25, ../_sass/partials/_sections.scss */
+  /* line 30, ../_sass/partials/_sections.scss */
   .section-img {
     width: 120px;
     height: 120px;

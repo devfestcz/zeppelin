@@ -4,11 +4,13 @@
 		<div class="col-lg-10 col-lg-offset-1 sections-list">
 			<h3>{{ site.sectionsTitle }}</h3>
 			{% assign animationDelay = 0 %}
+			{% assign numberOfSections = site.sections | size %}
+			{% assign columnsPerSection = 12 | divided_by:numberOfSections %}
 			{% for section in site.sections %}
-			<div class="col-md-3 col-xs-6 sections-item animated hiding" data-animation="fadeInUp" data-delay="{{ animationDelay }}">
+			<div class="col-md-{{ columnsPerSection }} col-xs-6 sections-item animated hiding" data-animation="fadeInUp" data-delay="{{ animationDelay }}">
 				<div class="section">
 					<a href="{{ section.link }}">
-						<div class="flow-img img-circle section-img" style="background-image: url(/img/people/RobinPokorny.jpg)"></div>
+						<div class="flow-img img-circle section-img" style="background-image: url(/img/sections/{{ section.image }})"></div>
 						<div class="name">{{ section.name }}</div>
 					</a>
 				</div>

@@ -86,10 +86,9 @@ rockstarSpeakersButtonText: "Zobrazit všechny speakery"
 
 sectionsTitle: "Sekce"
 sections:
- - {name: "MachineRoom", link: "/machineroom/"}
- - {name: "BusinessBuild", link: "/businessbuild/"}
- - {name: "GeekFun", link: "/geekfun/"}
- - {name: "Women Techmakers", link: "/women-techmakers/"}
+ - {name: "MachineRoom", link: "/machineroom/", image: "machineroom.png"}
+ - {name: "BusinessBuild", link: "/businessbuild/", image: "businessbuild.png"}
+ - {name: "GeekFun", link: "/geekfun/", image: "geekfun.jpg"}
 
 # Location Block
 locationBlockTitle: "Lokalita"

@@ -4,13 +4,14 @@
   surname: "Pokorný"
   company: "LMC"
   title: "Front-end Developer"
-  bio: "Posluchač matematiky na MFF, front-end vývojář v @lmc_eu, podcaster s @bruskodu a neúnavný experimentáror."
+  bio: ""
   thumbnailUrl: RobinPokorny.jpg
-  section: web
+  section: dev
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/robinpokorny"}
     - {name: "google-plus", link: "https://plus.google.com/+robinpokorny"}
+
 - 
   id: 2
   name: "Štěpán"
@@ -24,6 +25,7 @@
   social: 
     - {name: "google-plus", link: "https://plus.google.com/113117467827447934781"}
     - {name: "twitter", link: "https://twitter.com/stepanb"}
+
 - 
   id: 3
   name: "Tomáš"
@@ -34,21 +36,350 @@
   thumbnailUrl: TomasJukin.jpg
   section: ohw
   rockstar: true
-  ribbon:
-    - {abbr: "GDG", title: "Google Developer Group"}
   social: 
     - {name: "google-plus", link: "https://google.com/+TomášJukin"}
     - {name: "twitter", link: "https://twitter.com/Inza"}
+
 - 
   id: 4
-  name: "Robin"
-  surname: "Pokorný"
-  company: "LMC"
-  title: "Front-end Developer"
-  bio: "Posluchač matematiky na MFF, front-end vývojář v @lmc_eu, podcaster s @bruskodu a neúnavný experimentáror."
-  thumbnailUrl: RobinPokorny.jpg
-  section: web
+  name: "Mise"
+  surname: "Hero"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 5
+  name: "Filip"
+  surname: "Hráček"
+  company: "Google"
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 6
+  name: "Jana"
+  surname: "Moudrá"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
   rockstar: true
   social: 
-    - {name: "twitter", link: "https://twitter.com/robinpokorny"}
-    - {name: "google-plus", link: "https://plus.google.com/+robinpokorny"}
+    - {name: "twitter", link: "https://twitter.com/Janamou"}
+
+- 
+  id: 7
+  name: "Jakub"
+  surname: "Škvára"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: JakubSkvara.jpg
+  section: dev
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/skvaros"}
+    - {name: "google-plus", link: "https://plus.google.com/+JakubSkvara"}
+
+- 
+  id: 8
+  name: "Tereza"
+  surname: "Hyková"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 9
+  name: "Rachel"
+  surname: "Simpson"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 10
+  name: "Tomáš"
+  surname: "Zvěřina"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 11
+  name: "Daniel"
+  surname: "Kolman"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 12
+  name: "Tomáš"
+  surname: "Hubálek"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+TomasHubalek"}
+
+- 
+  id: 13
+  name: "Dávid"
+  surname: "Kováč"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DávidKováč"}
+
+- 
+  id: 14
+  name: "Felix"
+  surname: "Palmer"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 15
+  name: "Radek"
+  surname: "Pavlíček"
+  company: ""
+  title: ""
+  bio: "Radek vystudoval Fakultu informatiky Masarykovy univerzity v Brně. Od roku 1998 se zabývá speciální informatikou pro uživatele s těžkým postižením zraku, dlouhou dobu působil jako lektor a učil své nevidomé a slabozraké klienty používat počítač. Nyní se věnuje hlavně konzultační a metodické činnosti. <br><br> V oblasti přístupnosti aktivně působí od roku 2001, je autorem metodiky Blind Friendly Web a spoluautorem českých Pravidel přístupného webu. Přístupnost je Radkovým koníčkem a věnuje se jí i v rámci svých dalších pracovních aktivit, v projektu Blind Friendly Web má na starost testování přístupnosti a jeho koordinaci, vede školení tvorby přístupného webu či dokumentů.  Radek se velmi intenzivně věnuje propagaci přístupnosti na konferencích, seminářích, workshopech a dalších akcích, na které se přístupnost tematicky hodí.O přístupnosti píše na blog POSLEPU a příležitostně pro magazín Zdroják."
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/radlicek"}
+    - {name: "google-plus", link: "https://plus.google.com/+RadekPavlicek/"}
+
+- 
+  id: 16
+  name: "Věrka"
+  surname: "Koukalová"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+
+- 
+  id: 17
+  name: "Michal"
+  surname: "Illich"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/michalillich"} 
+
+- 
+  id: 18
+  name: "Tomáš"
+  surname: "Holas"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: TomasHolas.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/tomaash"}
+    - {name: "google-plus", link: "https://plus.google.com/111424308047237550131"}
+
+- 
+  id: 19
+  name: "Mirek"
+  surname: "Černý"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: MirekCerny.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/mirekblack"}
+    - {name: "google-plus", link: "https://plus.google.com/116475690450453545044"}
+
+- 
+  id: 20
+  name: "Marie"
+  surname: "Chytilová"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+
+- 
+  id: 21
+  name: "Petr"
+  surname: "Šmíd"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+
+- 
+  id: 22
+  name: "Jan"
+  surname: "Veselý"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: JanVesely.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/janvesely"}
+    - {name: "google-plus", link: "https://plus.google.com/113512745405114279064"}
+
+- 
+  id: 23
+  name: "Karel"
+  surname: "Smutný"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: KarelSmutny.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/KarelSmutny"}
+    - {name: "google-plus", link: "https://plus.google.com/113931047870133242922/"}
+
+- 
+  id: 24
+  name: "Bogomil"
+  surname: "Shopov"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: BogomilShopov.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/bogomep"}
+    - {name: "google-plus", link: "https://plus.google.com/+BogomilShopov"}  
+
+- 
+  id: 25
+  name: "Daniel"
+  surname: "Franc"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+
+- 
+  id: 26
+  name: "Vojtěch"
+  surname: "Bárta"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+
+- 
+  id: 27
+  name: "Jan"
+  surname: "Švec"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: ohw
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/honza_svec"}
+    - {name: "google-plus", link: "https://plus.google.com/+JanŠvec-honzas"}
+
+- 
+  id: 28
+  name: "Pedro Pinto"
+  surname: "Silva"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: ohw
+  rockstar: true
+
+- 
+  id: 29
+  name: "Mircea"
+  surname: "Pricop"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+
+- 
+  id: 30
+  name: "Mária"
+  surname: "Júdová"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: ohw
+  rockstar: true
+
+
+- 
+  id: 31
+  name: "Tomáš"
+  surname: "Hromník"
+  company: ""
+  title: ""
+  bio: "Prvú webovú stránku som spravil v roku Pána 2005. <br> <br>Programovať som sa začal učiť v roku 2008 a učím sa doteraz. Prešiel som si jazykmi C, C++, Pascal, Haskell, Java, C#, PHP a JavaScript. <br><br>V roku 2013 som prešiel z PHP na čisto JavaScriptové aplikácie.<br>Mám bohaté skúsenosti s kódovaním aj programovaním. Nie som iba programátor. Nie som iba kodér. Som Fullstack developer."
+  thumbnailUrl: TomasHromnik.jpg
+  section: dev
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "http://twitter.com/elfoslav"}
+    - {name: "google-plus", link: "https://plus.google.com/115203656443790928217"}

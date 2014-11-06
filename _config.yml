@@ -41,6 +41,7 @@ navigationLinks:
  - {permalink: "/machineroom/", text: "MachineRoom"}
  - {permalink: "/businessbuild/", text: "BusinessBuild"}
  - {permalink: "/geekfun/", text: "GeekFun"}
+ - {permalink: "/speakers/", text: "Speakeři"}
 
 bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
@@ -88,7 +89,7 @@ sectionsTitle: "Sekce"
 sections:
  - {name: "MachineRoom", link: "/machineroom/", image: "machineroom.png"}
  - {name: "BusinessBuild", link: "/businessbuild/", image: "businessbuild.png"}
- - {name: "GeekFun", link: "/geekfun/", image: "geekfun.jpg"}
+ - {name: "GeekFun", link: "/geekfun/", image: "geekfun.png"}
 
 # Location Block
 locationBlockTitle: "Lokalita"
@@ -256,7 +257,7 @@ geekfunRows:
  - {
   title: "",
   image: "geekfun-0.jpg",
-  details: "DevFest je složen ze slov developers + festival. A o festivalovou část nepřijdete ani tento rok. Na obrázku vidíte atrium Fakulty Stavební, které se promění doslova v džungli geekovské zábavy. Bude si moci vyzkoušet spoustu starých i nových gadgetů – Googlích i neGooglích. Připravujeme zajímavé kombinace a propojení gadgetů, které jste ještě neviděli. Konkrétní gadgety nebudeme prozrazovat, ať se máte na co těšit. Vše bude formou hry, zapojíme určitě i naše partnery. Takže pokud zrovna nebudete na přednášce, nudit se určitě nebudete a snadno tak potkáte ostatní vývojáře a geeky. Jistě si pamatujete naše divadelní představení na keynote z <a href='http://www.youtube.com/watch?v=pwJk8JpYitw'>předminulého</a> a <a href='http://www.youtube.com/watch?v=wg-gOE8yxro'>minulého</a> roku. Tento rok na keynote nic nebude. We promise ;-<a href='https://www.youtube.com/watch?v=MefZfhxgpZE'>)</a>"
+  details: "DevFest je složen ze slov developers + festival. A o festivalovou část nepřijdete ani tento rok. Na obrázku vidíte atrium Fakulty Stavební, které se promění doslova v džungli geekovské zábavy. Bude si moci vyzkoušet spoustu starých i nových gadgetů – Googlích i neGooglích. Připravujeme zajímavé kombinace a propojení gadgetů, které jste ještě neviděli. Konkrétní gadgety nebudeme prozrazovat, ať se máte na co těšit. Vše bude formou hry, zapojíme určitě i naše partnery. Takže pokud zrovna nebudete na přednášce, nudit se určitě nebudete a snadno tak potkáte ostatní vývojáře a geeky. Jistě si pamatujete naše divadelní představení na keynote z <a href='http://www.youtube.com/watch?v=pwJk8JpYitw'>předminulého</a> a <a href='http://www.youtube.com/watch?v=wg-gOE8yxro'>minulého</a> roku. Tento rok na keynote nic nebude. We promise ;-<a href='https://www.youtube.com/watch?v=UKHZPOumK-c'>)</a>"
    }
 
 # BusinessBuild

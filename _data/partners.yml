@@ -4,9 +4,24 @@
     - {name: "Google", description: "Google", link: "https://www.google.cz/about/", imageUrl: "google.svg"}
 
 - 
+  group: "Hlavní partner MachineRoom"
+  elements: 
+    - {name: "Juicimo", description: "Juicimo", link: "http://www.juicymo.cz/", imageUrl: "juicimo.png", width: 220}
+
+- 
   group: "Hlavní mediální partner"
   elements: 
     - {name: "Dotekománie", description: "Dotekománie", link: "http://dotekomanie.cz/", imageUrl: "dotekomanie.png", width: 200}
+
+- 
+  group: "Partner GeekFun"
+  elements: 
+    - {name: "czc.cz", description: "czc.cz", link: "http://czc.cz/", imageUrl: "czc.png"}
+
+- 
+  group: "Partner MachineRoom"
+  elements: 
+    - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}
 
 - 
   group: "Mediální partneři"
@@ -17,13 +32,3 @@
   group: "Za výrazné podpory"
   elements: 
     - {name: "Fakulta stavební ČVUT", description: "Fakulta stavební ČVUT", link: "http://www.fsv.cvut.cz/", imageUrl: "cvut.png", width: 250}
-
-- 
-  group: "Hlavní partner MachineRoom"
-  elements: 
-    - {name: "Juicimo", description: "Juicimo", link: "http://www.juicymo.cz/", imageUrl: "juicimo.png", width: 220}
-
-- 
-  group: "Partner MachineRoom"
-  elements: 
-    - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}

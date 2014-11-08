@@ -312,19 +312,6 @@
   social:
     - {name: "twitter", link: "https://twitter.com/bartavoj"}
   order: 3
-- 
-  id: 17
-  name: "Michal"
-  surname: "Illich"
-  company: "Wikidi"
-  title: "Founder"
-  bio: ""
-  thumbnailUrl: unknown.png
-  section: gbg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/michalillich"} 
-  order: 4
 
 - 
   id: 19

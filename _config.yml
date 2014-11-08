@@ -45,10 +45,8 @@ navigationLinks:
 
 bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
- - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 rightNavigationButtons:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
- - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -58,7 +56,6 @@ typeoutTextValues: '"zážitků", "technologií", "networkingu", "přednášek",
 typeoutFallback: "zážitků"
 heroButtons:
  - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
- - {link: "https://docs.google.com/forms/d/1Tylmnz_O8N8h5jmqFQsMLm1cpRzD7krXu8J9qaJb5vQ/viewform", text: "Chci vystoupit na DevFestu"}
 
 # About Block
 aboutTitle: "Na co se můžu těšit na DevFestu Praha 2014?"
@@ -202,7 +199,7 @@ discusShortName: "devfestua"
 showSessions: false
 
 # Team Block
-teamBlockTitle: "About us"
+teamBlockTitle: "O nás"
 aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
 # Logistics Find Way Block
@@ -264,19 +261,19 @@ geekfunRows:
 aboutBusinessbuildTitle: "Budujeme ... business!"
 businessbuildRows:
  - {
-  title: "Budovat, realizovat, monetizovat",
-  image: "geekfun-0.jpg",
-  details: "Na letošním DevFestu se nenaučíte budovat jenom software a hardware. Naučíte se také vybudovat svojí vlastní firmu, realizovat nápady, vést projekty a monetizovat aplikace.<br><br>Připravili jsme pro vás pestrý program, který by vám měl poskytnout dostatek informací k tomu, abyste třeba následující den vyrazili a započali epickou cestu k vlastnímu startupu. Můžete se těšit na spoustu skvělých přednášek a jeden speciální workshop."
+  title: "Budovat, realizovat",
+  image: "businessbuild-0.png",
+  details: "Na letošním DevFestu se nenaučíte budovat jenom software a hardware. Naučíte se také vybudovat kolem své aplikace nebo nápadu svojí vlastní firmu a vést projekty.<br><br>Připravili jsme pro vás pestrý program, který by vám měl poskytnout dostatek informací k tomu, abyste třeba následující den vyrazili a započali epickou cestu k vlastní firmě. Můžete se těšit na spoustu skvělých přednášek a jeden praktický workshop s mentory."
    }
  - {
   title: "Přednášky",
-  image: "geekfun-0.jpg",
-  details: "Připravte se na pořádnou dávku informací a motivace od známých podnikatelů, vývojařů a projektových manažerů, kteří se s vámi podělí o své zkušenosti. A komu to nebude stačit, tak ten může po přednáškách rovnou zamířit na workshop, kde budou někteří z přednášejících vystupovat v roli mentorů."
+  image: "businessbuild-1.png",
+  details: "Připravte se na pořádnou dávku informací a motivace od úspěšných podnikatelů a projektových manažerů z technické branže, kteří se s vámi podělí o své zkušenosti o tom, jak z existující aplikace nebo nápadu v šuplíku postavit fungující projekt nebo úspěšnou firmu."
    }
  - {
-  title: "Workshop",
-  image: "geekfun-0.jpg",
-  details: "Máte nějaký nápad, který byste chtěli realizovat? Chcete vybudovat vlastní start-up, monetizovat svojí aplikaci, nebo už jste na půli cesty a jen se chcete zeptat na radu? <br><br> Pokud ano, tak přesně pro vás je určen náš workshop, na kterém vám zkušení mentoři odpoví na vaše otázky, poradí vám, čeho se vyvarovat a pomohou vám vytvořit plán, který bude moci sloužit jako odrazový můstek na cestě k vašemu cíli."
+  title: "Workshop: Postavte si svoji firmu!",
+  image: "businessbuild-2.png",
+  details: "Okolo firem a startupů panuje v současné době velká mytologie. Připravili jsme pro vás dva praktické bloky, během kterých zjistíte, co to vlastně firma je, jak se dá vytvořit  kolem vašeho projektu a jak jednotlivé firemní části spolu propojit tak, aby dokázaly váš projekt nebo myšlenku podpořit k cestě na úplně novou úroveň. A hlavně si to vyzkoušíte sami “nanečisto”, pokud budete chtít, pod vedením několika zkušených podnikatelů a manažerů z technické scény."
    }
 
 # MachineRoom

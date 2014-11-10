@@ -9,6 +9,7 @@ $small-hackathon-img-width: 150px;
 	&.float-right {
 		.hackathon-img-wrapper {
 			float: right;
+			margin-left: 15px;
 		}
 		.hackathon-details {
 			text-align: right;
@@ -34,12 +35,14 @@ $small-hackathon-img-width: 150px;
 	float: left;
     @media (max-width: 767px) {
         float: right;
+        margin-left: 15px;
     }
 	img {
 		max-width: $hackathon-img-width;
 		margin: 0 auto;
         @media (max-width: 767px) {
             max-width: $small-hackathon-img-width;
+            margin-top: 0 !important;
         }
 	}
 }

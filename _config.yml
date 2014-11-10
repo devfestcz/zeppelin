@@ -41,6 +41,7 @@ navigationLinks:
  - {permalink: "/machineroom/", text: "MachineRoom"}
  - {permalink: "/businessbuild/", text: "BusinessBuild"}
  - {permalink: "/geekfun/", text: "GeekFun"}
+ - {permalink: "/women-techmakers/", text: "Women Techmakers"}
  - {permalink: "/speakers/", text: "Speakeři"}
 
 bottomNavigationLinks:
@@ -87,6 +88,7 @@ sections:
  - {name: "MachineRoom", link: "/machineroom/", image: "machineroom.png"}
  - {name: "BusinessBuild", link: "/businessbuild/", image: "businessbuild.png"}
  - {name: "GeekFun", link: "/geekfun/", image: "geekfun.png"}
+ - {name: "Women Techmakers", link: "/women-techmakers/", image: "women-techmakers.png"}
 
 # Location Block
 locationBlockTitle: "Lokalita"
@@ -305,3 +307,12 @@ machineroomTechnologies:
  - {title: "Swift", image: "tech-swift.jpg"}
  - {title: "Android", image: "tech-android.png"}
  - {title: "Android Wear", image: "tech-wear.jpg"}
+
+ # Women Techmakers
+womenTechmakersSpeakersTitle: "Women Techmakers na DevFestu"
+womenTechmakersRows:
+ - {
+  title: "",
+  image: "logo_wtm.png",
+  details: "<p>Víme, že ženy v IT jsou velmi důležité, protože přináší jiný pohled na věc, a není vůbec pravda, že pokud jsi žena, tak nemáš talent na techniku a měla bys dělat něco jiného. Existuje spousta žen, které mají blízko k IT a mnoho toho dokázaly, například šéfka Yahoo! <a href='http://en.wikipedia.org/wiki/Marissa_Mayer'>Marissa Mayer</a> nebo předešlá prezidentka Google[x] programu <a href='http://en.wikipedia.org/wiki/Megan_Smith'>Megan Smith</a>. A tyto ženy nejsou jediné. Víš, kdo byl historicky první programátor? Byla to programátorka, jmenovala se <a href='http://en.wikipedia.org/wiki/Ada_Lovelace'>Ada Lovelace</a> a byla fakt dobrá v tom, co dělala.</p><p>Bojíš se, že nejsi vývojářka a že DevFest není pro tebe? To vůbec není pravda. Abys mohla jít na DevFest, tak nemusíš denně napsat 1000 řádků kódu, vědět, co je to Git, a umět 5 programovacích jazyků. Důležitý je tvůj zájem o technologie, ale určitě si z DevFestu mnohé odneseš. A to jak nové znalosti, tak další kontakty a nadšení pro nové věci.</p><p>Co ti můžeme slíbit? Kromě toho, že je obvykle na DevFestu spousta srandy, potkáš nové lidi a dozvíš se nové informace, ti můžeme prozradit, že tam budeme mít i nějaký program zaměřený více pro tebe. Třešničkou na dortu je pak více ženských speakerek na DevFestu.</p><p>P.S.: DevFest pro tebe připravují i holky ;-)</p>"
+   }

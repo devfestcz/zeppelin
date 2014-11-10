@@ -1,5 +1,5 @@
 - 
-  id: 32
+  id: 1
   name: "Mathieu"
   surname: "Maret"
   company: "Genymobile"
@@ -11,7 +11,7 @@
   order: 3
 
 - 
-  id: 33
+  id: 2
   name: "Sylvain"
   surname: "Galand"
   company: "Genymobile"
@@ -23,7 +23,7 @@
   order: 3
 
 - 
-  id: 34
+  id: 3
   name: "Antonin"
   surname: "Fouques"
   company: "Genymobile"
@@ -35,7 +35,7 @@
   order: 3
 
 - 
-  id: 1
+  id: 4
   name: "Robin"
   surname: "Pokorný"
   company: "LMC"
@@ -70,7 +70,7 @@
   title: "Co-founder"
   bio: "Jana is a co-founder of Juicymo and happy event organizer in GDG Prague/GDG ČVUT. She loves modern web technologies like Dart and HTML5. In Juicymo she does Frontend and Android development and she also designs UIs for web and mobile. Besides some speeches she organized together with Jakub Škvára two Dart + Polymer codelabs and hackathon and planning to do more because she loves helping other developers and spreading of these technologies."
   thumbnailUrl: JanaMoudra.jpg
-  section: dev
+  section: [dev, wt]
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/Janamou"}
@@ -92,7 +92,7 @@
   order: 3
 
 - 
-  id: 9
+  id: 8
   name: "Rachel"
   surname: "Simpson"
   company: ""
@@ -104,7 +104,7 @@
   order: 4
 
 - 
-  id: 10
+  id: 9
   name: "Tomáš"
   surname: "Zvěřina"
   company: "Multimedia Atelier"
@@ -118,7 +118,7 @@
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
 
 - 
-  id: 12
+  id: 10
   name: "Tomáš"
   surname: "Hubálek"
   company: "Independet Mobile Apps Developer"
@@ -132,7 +132,7 @@
   order: 3
 
 - 
-  id: 13
+  id: 11
   name: "Dávid"
   surname: "Kováč"
   company: ""
@@ -146,7 +146,7 @@
   order: 3
 
 - 
-  id: 14
+  id: 12
   name: "Felix"
   surname: "Palmer"
   company: ""
@@ -160,7 +160,7 @@
   order: 1
 
 - 
-  id: 15
+  id: 13
   name: "Radek"
   surname: "Pavlíček"
   company: ""
@@ -175,7 +175,7 @@
   order: 3
 
 - 
-  id: 2
+  id: 14
   name: "Štěpán"
   surname: "Bechynský"
   company: "Globální inovativní IT centrum MSD"
@@ -190,7 +190,7 @@
   order: 3
 
 - 
-  id: 3
+  id: 15
   name: "Tomáš"
   surname: "Jukin"
   company: "Juicymo"
@@ -205,7 +205,7 @@
   order: 3
 
 - 
-  id: 27
+  id: 16
   name: "Jan"
   surname: "Švec"
   company: "NTIS, Plzeň"
@@ -220,7 +220,7 @@
   order: 3
 
 - 
-  id: 28
+  id: 17
   name: "Pedro Pinto"
   surname: "Silva"
   company: ""
@@ -232,7 +232,7 @@
   order: 4
 
 - 
-  id: 29
+  id: 18
   name: "Mircea"
   surname: "Pricop"
   company: "Google"
@@ -244,7 +244,7 @@
   order: 1
 
 - 
-  id: 31
+  id: 19
   name: "Tomáš"
   surname: "Hromník"
   company: "Freelance"
@@ -259,7 +259,7 @@
   order: 3
 
 - 
-  id: 18
+  id: 20
   name: "Tomáš"
   surname: "Holas"
   company: "Salsita Software"
@@ -274,18 +274,18 @@
   order: 3
 
 - 
-  id: 30
+  id: 21
   name: "Mária"
   surname: "Júdová"
   company: ""
   title: ""
   bio: ""
   thumbnailUrl: unknown.png
-  section: ohw
+  section: ""
   rockstar: true
   order: 4
 - 
-  id: 24
+  id: 22
   name: "Bogomil"
   surname: "Shopov"
   company: "Infor"
@@ -296,11 +296,11 @@
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/bogomep"}
-    - {name: "google-plus", link: "https://plus.google.com/+BogomilShopov"}  
+    - {name: "google-plus", link: "https://plus.google.com/+BogomilShopov"}
   order: 3
 
 - 
-  id: 26
+  id: 23
   name: "Vojtěch"
   surname: "Barta"
   company: "Vendavo"
@@ -314,7 +314,7 @@
   order: 3
 
 - 
-  id: 19
+  id: 24
   name: "Mirek"
   surname: "Černý"
   company: "Futurelytics"
@@ -329,19 +329,19 @@
   order: 3
 
 - 
-  id: 20
+  id: 25
   name: "Marie"
   surname: "Chytilová"
   company: "Slevomat"
   title: "Acting Director"
   bio: ""
   thumbnailUrl: MarieChytilova.jpg
-  section: gbg
+  section: [gbg, wt]
   rockstar: true
   order: 3
 
 - 
-  id: 22
+  id: 26
   name: "Jan"
   surname: "Veselý"
   company: "Inkubátor ČVUT"
@@ -356,7 +356,7 @@
   order: 2
 
 - 
-  id: 23
+  id: 27
   name: "Karel"
   surname: "Smutný"
   company: "ING Bank Česká republika"
@@ -371,19 +371,19 @@
   order: 2
 
 - 
-  id: 8
+  id: 28
   name: "Tereza"
   surname: "Hyková"
   company: "Google"
   title: "Software Engineer"
   bio: ""
   thumbnailUrl: TerezaHykova.jpg
-  section: dev
+  section: [dev, wt]
   rockstar: true
   order: 1
 
 - 
-  id: 4
+  id: 29
   name: "František"
   surname: "Fuka"
   company: ""
@@ -395,13 +395,25 @@
   order: 1
 
 - 
-  id: 35
-  name: "Petr"
-  surname: "Šmíd"
-  company: "Google"
-  title: "Head of SMB Marketing, CZ & SK"
-  bio: ""
-  thumbnailUrl: unknown.png
-  section: gbg
+  id: 30
+  name: "Věrka"
+  surname: "Koukalová"
+  company: "H1.cz"
+  title: "Performance Advertising Manager"
+  bio: "Věrka zkombinovala zkušenosti v optimalizaci výkonnostních kampaní s vedením týmu a stala se vedoucí Performance týmu v H1.cz. Jejím úkolem je naplnění Performance Advertising strategie ve vertikále Search, tedy budování výkonu, automatizace a využívání nových technologií pro vyhledávače. Je také jedním ze sedmi Google Certified Trainers.<br>Mezi její velké lásky patří historický šerm, dobové kostýmy a cestování po Francii. Její vysněnou prací je profesionální spaní a až bude velká, otevře si cukrárnu. Zatím poctivě testuje zákusky a dorty doma na manželovi."
+  thumbnailUrl: VerkaKoukalova.jpg
+  section: [gbg, wt]
   rockstar: true
-  order: 4
+  order: 3
+
+- 
+  id: 31
+  name: "Martin"
+  surname: "Šenkeřík"
+  company: "ADLER iTech"
+  title: "Senior Android Developer"
+  bio: "Martin je absolvent VUT, majitel vlastního byznysu v 3D tisku a programátor, který se propracoval od Seznamu.cz až k projektu Liftago, pro který vede mobilní vývoj dvou Android aplikací (pro pasažéry a řidiče taxi), které se pišní dohromady nejen desítkami tisíc stažení, ale i skvělým hodnocením spokojenými uživateli. Martin je zároveň nadšený cestovatel a improvizátor. "
+  thumbnailUrl: MartinSenkerik.jpg
+  section: dev
+  rockstar: true
+  order: 3

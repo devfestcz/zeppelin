@@ -417,3 +417,15 @@
   section: dev
   rockstar: true
   order: 3
+
+- 
+  id: 32
+  name: "Petr"
+  surname: "Nálevka"
+  company: "Urbandroid Team"
+  title: "Co-founder and CEO"
+  bio: "Petr je vývojář, life hacker, startupista, libertarián, doktor filosofie, pastafariánský kněž, ale ze všeho nejvíc geek. Jeho Androidí projekty (Sleep as Android, Twilight, Mindroid, hueManic a daší..) používají ~2 miliony lidí na světě.  "
+  thumbnailUrl: PetrNalevka.jpg
+  section: dev
+  rockstar: true
+  order: 3

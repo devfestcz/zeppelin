@@ -429,3 +429,53 @@
   section: dev
   rockstar: true
   order: 3
+
+- 
+  id: 33
+  name: "Michal"
+  surname: "Illich"
+  company: "Wikidi"
+  title: "Founder"
+  bio: ""
+  thumbnailUrl: MichalIllich.jpg
+  section: gbg
+  rockstar: true
+  social: 
+    - {name: "twitter", link: "https://twitter.com/michalillich"}
+  order: 3
+
+- 
+  id: 34
+  name: "Petr"
+  surname: "Šmíd"
+  company: "Google"
+  title: "Head of SMB Marketing, CZ & SK"
+  bio: ""
+  thumbnailUrl: PetrSmid.jpg
+  section: gbg
+  rockstar: true
+  order: 3
+
+- 
+  id: 35
+  name: "Pavel"
+  surname: "Doležal"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: PavelDolezal.jpg
+  section: gbg
+  rockstar: true
+  order: 3
+
+- 
+  id: 36
+  name: "Tomáš"
+  surname: "Kypta"
+  company: "AVAST Software"
+  title: "Software Architect"
+  bio: "Tomáš is an Android Developer at Avast and an occasional speaker about Android development. He has many years of experience developing big customer applications at Inmite before the company was acquired by Avast."
+  thumbnailUrl: TomasKypta.jpg
+  section: dev
+  rockstar: true
+  order: 3

@@ -309,7 +309,7 @@ machineroomTechnologies:
  - {title: "Android Wear", image: "tech-wear.jpg"}
 
  # Women Techmakers
-womenTechmakersSpeakersTitle: "Women Techmakers na DevFestu"
+womenTechmakersSpeakersTitle: "Women speakers na DevFestu"
 womenTechmakersRows:
  - {
   title: "",

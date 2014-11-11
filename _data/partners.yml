@@ -14,14 +14,16 @@
     - {name: "Dotekománie", description: "Dotekománie", link: "http://dotekomanie.cz/", imageUrl: "dotekomanie.png", width: 200}
 
 - 
-  group: "Partner GeekFun"
+  group: "Partneři GeekFun"
   elements: 
     - {name: "czc.cz", description: "czc.cz", link: "http://czc.cz/", imageUrl: "czc.png"}
+    - {name: "Svět Androida", description: "Svět Androida", link: "http://www.svetandroida.cz/", imageUrl: "sa.png"}
 
 - 
-  group: "Partner MachineRoom"
+  group: "Partneři MachineRoom"
   elements: 
     - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}
+    - {name: "HobbyRobot.cz", description: "HobbyRobot.cz", link: "http://hobbyrobot.cz/", imageUrl: "hobbyrobot.png"}
 
 - 
   group: "Mediální partneři"

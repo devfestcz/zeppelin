@@ -70,7 +70,7 @@
   title: "Co-founder"
   bio: "Jana is a co-founder of Juicymo and happy event organizer in GDG Prague/GDG ČVUT. She loves modern web technologies like Dart and HTML5. In Juicymo she does Frontend and Android development and she also designs UIs for web and mobile. Besides some speeches she organized together with Jakub Škvára two Dart + Polymer codelabs and hackathon and planning to do more because she loves helping other developers and spreading of these technologies."
   thumbnailUrl: JanaMoudra.jpg
-  section: [dev, wt]
+  section: [dev, wtm]
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/Janamou"}
@@ -97,11 +97,11 @@
   surname: "Simpson"
   company: ""
   title: ""
-  bio: ""
-  thumbnailUrl: unknown.png
-  section: dev
+  bio: "Rachel Ilan Simpson is an Interaction Designer living in Munich, Germany. She has worked as a Freelancer for Munich-based companies like DriveNow and Freeletics, as well as for a couple of award-winning Design agencies in Canada and Germany. She’s currently working for Google.<br><br>For fun, she co-founded the first German version of a “Maker Faire”, called Make Munich, and the team recently completed their second yearly fair. She also started Munich Design Jam, which brings together coders, designers, and business people to build cool products over the course of a day.<br><br>She likes playing ukelele, watching Dr. Who, and having a gin & tonic with other geeky folks."
+  thumbnailUrl: RachelSimpson.jpg
+  section: [dev, wtm]
   rockstar: true
-  order: 4
+  order: 3
 
 - 
   id: 9
@@ -336,7 +336,7 @@
   title: "Acting Director"
   bio: ""
   thumbnailUrl: MarieChytilova.jpg
-  section: [gbg, wt]
+  section: [gbg, wtm]
   rockstar: true
   order: 3
 
@@ -378,7 +378,7 @@
   title: "Software Engineer"
   bio: ""
   thumbnailUrl: TerezaHykova.jpg
-  section: [dev, wt]
+  section: [dev, wtm]
   rockstar: true
   order: 1
 
@@ -402,7 +402,7 @@
   title: "Performance Advertising Manager"
   bio: "Věrka zkombinovala zkušenosti v optimalizaci výkonnostních kampaní s vedením týmu a stala se vedoucí Performance týmu v H1.cz. Jejím úkolem je naplnění Performance Advertising strategie ve vertikále Search, tedy budování výkonu, automatizace a využívání nových technologií pro vyhledávače. Je také jedním ze sedmi Google Certified Trainers.<br>Mezi její velké lásky patří historický šerm, dobové kostýmy a cestování po Francii. Její vysněnou prací je profesionální spaní a až bude velká, otevře si cukrárnu. Zatím poctivě testuje zákusky a dorty doma na manželovi."
   thumbnailUrl: VerkaKoukalova.jpg
-  section: [gbg, wt]
+  section: [gbg, wtm]
   rockstar: true
   order: 3
 

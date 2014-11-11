@@ -18,12 +18,15 @@
   elements: 
     - {name: "czc.cz", description: "czc.cz", link: "http://czc.cz/", imageUrl: "czc.png"}
     - {name: "Svět Androida", description: "Svět Androida", link: "http://www.svetandroida.cz/", imageUrl: "sa.png"}
+    - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png"}
 
 - 
   group: "Partneři MachineRoom"
   elements: 
     - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}
     - {name: "HobbyRobot.cz", description: "HobbyRobot.cz", link: "http://hobbyrobot.cz/", imageUrl: "hobbyrobot.png"}
+    - {name: "MacGyver", description: "MacGyver", link: "http://macgyver.sh.cvut.cz/", imageUrl: "macgyver.png"}
+    - {name: "UniPi", description: "UniPi", link: "http://unipi.technology/", imageUrl: "unipi.png"}
 
 - 
   group: "Mediální partneři"

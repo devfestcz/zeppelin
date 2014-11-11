@@ -15,41 +15,299 @@
   service: true
 -
   id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3, 6]
+  title: "Building Android for my Nexus"
+  description: "You want to build Android for your nexus device? Nice !<br/>How can you do that ?<br/>What are all those strange commands doing ?<br/>Why is it not working at the end ?<br/>Why are some component missing ?<br/><br/>This presentation will guide you thought the building process and explain what's going on. It will also explain some part of Android architecture, talking about gms ..."
+  subtype: talk
+  speakers: [1]
   language: en
-  complexity: "Intermediate"
+  topic: "Android"
 -
   id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "Android wear extends the Android platform to a new generation of wearable devices. The user experience is designed specifically for wearables. In this session you’ll see how to use the Android Wear SDK to build a connected cloud-powered application. Using Android Studio and it’s cloud extensions, you’ll see how to build an app that ‘listens’ for changes in stock prices, and notifies a wearable device. You’ll also see how to use voice controls on the device to trigger interactions with the app, such as buying or selling the stock after a notification. Call to action: Get the SDK and start building apps today!"
-  subtype: presentation
-  speakers: [4, 5]
+  title: "Application testing and CI integration, using Genymotion"
+  description: "Through a simple but complete Android application development, learn how and where you should implement your tests. We will cover different aspects of testing from running the test on your local workstation to automating the whole process in your CI. You will also learn how you can leverage Genymotion as the perfect tool for development optimization and automation testing, using the latest awesome features.<br/><br/>Then close your eyes, push the button, relax, the robots will do your work."
+  subtype: workshop
+  speakers: [2, 3]
   language: en
-  complexity: "Beginner"
+  topic: "Android"
 -
   id: 003
-  title: "The world is your playground - go global with Google"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
-  subtype: presentation
+  title: "Pokročilé responzivní obrázky"
+  description: ""
+  subtype: talk
   speakers: [4]
-  language: en
-  complexity: "Expert"
+  language: cz
+  topic: "Web"
 -
   id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
+  title: "Polymer.dart + Material Design + App Engine + BigQuery - Spánek = Tisíc knih"
+  description: "Úvod do stacku Polymeru + Dart, včetně oficiálních web komponentů ve stylu Material Design. Vysvětleno na konkrétním příkladu single-page aplikace, včetně live-kódování nové featury, které pravděpodobně skončí strašlivým fiaskem."
+  subtype: talk
+  speakers: [5]
+  language: cz
+  topic: "Web"
 -
   id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [7]
+  title: "Dart"
+  description: ""
+  subtype: talk
+  speakers: [6]
+  language: cz
+  topic: "Web"
+-
+  id: 006
+  title: "Dart Code Lab"
+  description: ""
+  subtype: workshop
+  speakers: [6, 7, 5]
+  language: cz
+  topic: "Web"
+-
+  id: 007
+  title: "Polymer Polytechnic: používejte vlastní HTML elementy"
+  description: "Přijďte se vyzkoušet vytvořit vlastní HTML elementy za pomocí knihovny Polymer v JavaScriptu.<br/><br/>Nezapomeňte si s sebou vzít na Code Lab vlastní notebook."
+  subtype: workshop
+  speakers: [7, 6]
+  language: cz
+  topic: "Web"
+-
+  id: 008
+  title: "Unboxing UX: Design prototyping for Engineers"
+  description: ""
+  subtype: talk
+  speakers: [8]
+  language: cz
+  topic: "Dev"
+-
+  id: 009
+  title: "AppEngine"
+  description: ""
+  subtype: talk
+  speakers: [9]
   language: en
-  complexity: "Expert"
+  topic: "Cloud"
+-
+  id: 010
+  title: "Dart + StageXL = RIP(Flash)"
+  description: ""
+  subtype: workshop
+  speakers: [9]
+  language: cz
+  topic: "Dev"
+-
+  id: 011
+  title: "Material design prakticky"
+  description: "V této přednášce se podíváme na pár receptů, jak snadno a rychle integrovat prvky material designu do vaší aplikace. Hlavní důraz bude kladen na zpětnou kompatibilitu a rychlé výsledky."
+  subtype: talk
+  speakers: [10]
+  language: cz
+  topic: "Android"
+-
+  id: 012
+  title: "Vylepšujeme Google Mapy"
+  description: "Google Mapy niesú len o zastaralých podkladoch získaných pred pár rokmi. Google pomocou služby MapMaker poskytuje možnosť upraviť Google Mapy samotnej komunite uživateľov. Zakresliť cestu, budovu či jazero nieje až tak ťažké.Príďte sa pozrieť a rozvinme spoločne maperskú komunitu v Česku a Slovensku."
+  subtype: talk
+  speakers: [11]
+  language: sk
+  topic: "Other"
+-
+  id: 013
+  title: "Mapathon"
+  description: "Google Mapy niesú len o zastaralých podkladoch získaných pred pár rokmi. Google pomocou služby MapMaker poskytuje možnosť upraviť Google Mapy samotnej komunite uživateľov. Zakresliť cestu, budovu či jazero nieje až tak ťažké.Príďte sa pozrieť a rozvinme spoločne maperskú komunitu v Česku a Slovensku."
+  subtype: workshop
+  speakers: [11]
+  language: sk
+  topic: "Other"
+-
+  id: 014
+  title: "How to build Photoshop - WebGL not just for 3D / Jak postavit Photoshop - WebGL nejen pro 3D"
+  description: "WebGL is normally associated with 3D graphics, which can seem daunting without a background in this field. However, the WebGL API is inherently 2D, merely supplying a very useful toolbox of functionality for creating 3D engines. In this talk, we'll explore how WebGL can be used to manipulate 2D graphics, by creating a simple image editing application. Through live-coding we'll see how setting up a WebGL application isn't all that complicated and can be achieved without having to reach for higher level frameworks, and how hardware accelerated image effects like color changes, deformations or blurs can be implemented in a few lines of code."
+  subtype: talk
+  speakers: [12]
+  language: en
+  topic: "Web"
+-
+  id: 015
+  title: "Přístupnost pro kodéry"
+  description: "Přístupnost není charita, nepřístupný web je promarněná obchodní příležitost. Obzvlášť dnes, v době mobilních zařízení, je zajištění bezproblémové přístupnosti webu obsahu velmi důležité. Přístupným webem dáváme najevo, že nám naši zákazníci nejsou lhostejní a že je náš web otevřený komukoliv - ať už nevidí, používá k práci s webem pouze klávesnici nebo na něj přistupuje z nejnovějšího smartphonu. Nepřístupným webem se můžeme připravit až o 30 % návštěvníků, kteří se z nějakého důvodu nedostanou k obsahu, jenž na něm prezentujeme.<br/><br/>Chcete zlepšit přístupnost webů, které kódujete, moc se přitom nenadřít a seznámit se s technikami, které pro zpřístupnění svých služeb používá i Twitter nebo Facebook? Máte už základní znalosti o přístupnosti a rádi byste postoupili do vyššího levelu? Pak je tento workshop právě pro vás.<br/><br/>Workshop bude zaměřen prakticky a je určen pro kodéry, kteří se chtějí naučit pokročilejší techniky z oblasti přístupnosti. Na workshopu si společně ukážeme, jak pomocí technik z Doporučení W3C Accessible Rich Internet Applications (WAI-ARIA) 1.0<br/><br/>Lépe strukturovat obsah webové stránky pomocí tzn. oblastí stránek a nabídnout tak uživatelům snadný prostředek pro lepší orientaci na stránce,<br/>zajistit bezproblémovou přístupnost webu z klávesnice,<br/>zlepšit přístupnost formulářů například vytvořením přístupných tooltipů nebo vyznačením povinných položek,<br/>ošetřit přístupnost modálních oken<br/>či dynamických změn oblastí stránky.<br/><br/>Díky jejich znalosti pak není třeba nahlížet na přístupnost jako na vícepráci, kterou je dokonce nutné zvlášť fakturovat, ale je možné ji brát jako nedílnou součást kodéřiny a zjednodušení vlastní práce. Mějte přístupnost na své straně a udělejte si z ní konkurenční výhodu."
+  subtype: workshop
+  speakers: [13]
+  language: cz
+  topic: "Web"
+-
+  id: 016
+  title: "Moje garáž, můj hrad"
+  description: "Se ženou se dělíme o jednu garáž systémem, kdo dřív přijede, ten parkuje v teple. Ten druhý má smůlu. Jak však zjistit bez otvírání garáže, jestli je tam místo? Jednoduše. Namontujete senzor vzdálenosti na strop, vyhodnotíte přítomnost auta, přípojíte přes Arduino Yún k internetu a na mobilu kouknete, jestli je garáž volná. Ano, je to ujeté, ale fungeje to. V přednášce uvidíte, jak jsem celé zařízení vyráběl od A do Z, uvidíte spoustu kódu, díly vytištěné na 3D tiskárně a pochopíte, že vyrobit něco hmatatelného je lepší a těžší než jen programovat."
+  subtype: talk
+  speakers: [14]
+  language: cz
+  topic: "Open HW"
+-
+  id: 017
+  title: "Jak se dělá tišťák"
+  description: "Namalovat, vytiskout, osvítit, vyvolat, vyleptat a tišťák je hotový. Chce to jen zkusit. Dozvíte se, jaké vybavení potřebujete a jaký je základní postup. A něco si zamozřejmně vyrobíte."
+  subtype: workshop
+  speakers: [14]
+  language: cz
+  topic: "Open HW"
+- 
+  id: 018
+  title: "Multi-Agentní Systémy - vybudujme si populaci na stole či v kapse!"
+  description: "V přednášce popíši, co to jsou multi-agentní systémy (MAS), jak fungují, co všechno nám mohou usnadnit a kam patří z hlediska umělé inteligence. Na živo předvedu tzv. &quot;agent&quot; - základní jednotku multi-agentního systému. A ukážeme si, jak si své vlastní agenty můžete vytvořit sami doma na stole nebo ve své kapse nejen pomocí jazyka Ruby, Objective-C a Wiring/Processing. Zlatým hřebem však bude okamžik, kdy během přednášky opustí agenty hlubiny počítače a jako duše arduino robotů začnou interagovat s reálným světem."
+  subtype: talk
+  speakers: [15]
+  language: cz
+  topic: "Open HW"
+-
+  id: 019
+  title: "Chceme mluvit s počítačem? "
+  description: "Přednáška o tom jak (ne)funguje rozpoznávání řeči a porozumění jejímu významu;<br/>jak to udělat, když má počítač komunikovat s člověkem lidskou řečí, ale<br/>člověk s ním komunikovat nechce; k čemu je použitelné strojové učení a co potom<br/>má na práci vývojář. Dále se dotkneme třeba toho, jak reprezentovat význam řeči,<br/>historii dialogu, nebo jak se vypořádat s chybami rozpoznávání. "
+  subtype: talk
+  speakers: [16]
+  language: cz
+  topic: "Open HW"
+-
+  id: 020
+  title: "Generative Design"
+  description: "Explore generative systems as a possible path in design. To take the computer as a creative tool during all the process, facing it as an active bridge between the goal and the outcome. The opportunity of collaboration with autonomous systems created by the designer is not new. Although, its dissemination is poor and confused. So I invite you all to clarify it with me."
+  subtype: talk
+  speakers: [17]
+  language: en
+  topic: "Open HW"
+-
+  id: 021
+  title: "Use your data to understand the world: extracting meaning out of free form text and beyond."
+  description: "Word embeddings are one of the most exciting topics in machine learning today, and thanks to recent developments it's never been easier to harness their power.<br/><br/>Starting from a simple problem, we'll have a look at how and why they work, see them in action on the Google cloud, then peek at how these concepts can be help you with your own challenges."
+  subtype: talk
+  speakers: [18]
+  language: en
+  topic: "Dev"
+-
+  id: 022
+  title: "Vytvor si svoju prvú real-time aplikáciu s MeteorJS"
+  description: "Meteor je mladá, ale mocná technológia. Je možné v ňom robiť real-time aplikácie v extrémne krátkom čase. Meteor používa JavaScript na klientovi, aj na serveri. Ak vieš JavaScript, Meteor sa naučíš rýchlo.<br/><br/>Účastník workshopu musí mať základnú znalosť JavaScriptu, HTML a CSS.<br/><br/>Workshop je primárne pre používateľov MAC a Linux. Ak si dokážete Meteor rozbehať na Windowse, ste vítaní."
+  subtype: workshop
+  speakers: [19]
+  language: sk
+  topic: "Web"
+-
+  id: 023
+  title: "Vývojaři, firemní kultura a produktivita"
+  description: "Firemní kultura je dnes často považována za &quot;nice to have&quot;, zbytnou součást, případně vedlejší efekt zúčastněných lidí a procesů. Ukazuje se ale, že právě sofistikovaná firemní kultura obvykle odlišuje špičkové společnosti od těch průměrných. Jak je možné, že se nezkušení nováčci stávají leadery na trhu a korporátní giganti se propadají do irelevance? V přednášce si ukážeme, jaké jsou základní součásti zdravé firemní kultury, a co je možné udělat pro to, aby i u vás vzkvétala."
+  subtype: talk
+  speakers: [20]
+  language: cz
+  topic: "Business"
+-
+  id: 024
+  title: ""
+  description: ""
+  subtype: workshop
+  speakers: [21]
+  language: cz
+  topic: "Open HW"
+-
+  id: 025
+  title: "What Do Business Analysts Actually Do for Software Implementation Projects?"
+  description: "Everyone knows who the business analysts are in their organization, but not everyone knows what they actually do and what they are responsible for during software implementation projects."
+  subtype: talk
+  speakers: [22]
+  language: en
+  topic: "Business"
+-
+  id: 026
+  title: "Kvalita jako odpovědnost celého týmu"
+  description: "Agilní tým je skupina různých lidí, kde každý má vlastní odpovědnosti, ale všichni mají stejný cíl - doručit reálnou hodnotu zákazníkovi a užít si to.<br/><br/>Kdysi (né tak dávno) byl rozšířený názor, že za testování jsou odpovědní testeři a že testování samo o sobě přináší kvalitu. Je jasné, že tato myšlenka je naprosto zcestná, protože samotné testování je pouze způsob, jak kvalitu změřit.<br/><br/>Jak tedy kvalitu zaručit? V této přednášce bych Vám rád ukázal, jak to vidím já na příkladu jedné iterace &quot;ideálního projektu&quot;, kdy se zaměříme na následující aspekty:<br/>- Business understanding = proč je důležité, aby všichni rozuměli požadavkům<br/>- Plánování (grooming, sizing = story points, estimating = hodiny)<br/>- Kooperace rolí během iterace (především mezi vývojáři a QA, ale i vzheldem k Product Ownerovi, zákazníkovi, atd.)<br/>- Demo<br/>- Retrospektiva<br/>- Zapojení zákazníka = to nejtěžší na konec.<br/><br/>Ideální projekt samozřejmě neexistuje, ale všechny myšlenky jsou s určitým úsilím realizovatelné, ale především je třeba vědět, čeho bychom chtěli dosáhnout, než se o to pokusíme.<br/><br/>Přednáška je určená jak testerům, tak vývojářům, protože tyto dvě role spolu musejí úzce spolupracovat. Pokud jejich spolupráce nefunguje, budete mí problém!<br/>"
+  subtype: talk
+  speakers: [23]
+  language: cz
+  topic: "Business"
+-
+  id: 027
+  title: "Postavte firmu 1: Struktura, Lidi"
+  description: ""
+  subtype: talk
+  speakers: []
+  language: cz
+  topic: "Business"
+-
+  id: 028
+  title: "Postavte firmu 2: Marketing, Sales, Finance"
+  description: ""
+  subtype: workshop
+  speakers: []
+  language: cz
+  topic: "Business"
+-
+  id: 029
+  title: ""
+  description: ""
+  subtype: talk
+  speakers: [27 ,26]
+  language: cz
+  topic: "Business"
+-
+  id: 030
+  title: "Jak dostat svůj startup mezi světovou špičku"
+  description: "Brilantních nápadů jsou spousty. Jak to ale zařídit, aby můj projekt <br/>skutečně uspěl? Mirek Černý se s vámi podělí o zkušenosti ze Seedcampu, <br/>jednoho z nejúspěšnějších světových programů pro začínající firmy. Dozvíte <br/>se jednak, co je nutné k tomu, abyste získali počáteční a další investice, <br/>ale i jaké to je být součástí &quot;rodiny&quot;, která vám otevírá dveře do světa. <br/>Mirek dále promluví, jak jejich tým staví platformu Futurelytics na Google <br/>Cloud Platform, což jim umožňuje masivní škálování. Budete snít o <br/>dobrodružství, jaké se společníkem Danem Hastíkem zažili v Silicon Valley, <br/>nebo se do toho pustíte taky? ;)"
+  subtype: talk
+  speakers: [24]
+  language: cz
+  topic: "Business"
+-
+  id: 031
+  title: ""
+  description: ""
+  subtype: workshop
+  speakers: [28]
+  language: cz
+  topic: "Dev"
+-
+  id: 032
+  title: "Elektronické hudební posezení"
+  description: "Elektronické hudební posezení"
+  subtype: talk
+  speakers: [29]
+  language: cz
+  topic: "Dev"
+-
+  id: 033
+  title: "Zkrocení chaosu světa v Android aplikacích pomocí finite-state machine"
+  description: ""
+  subtype: talk
+  speakers: [31]
+  language: cz
+  topic: "Android"
+-
+  id: 034
+  title: "Jak monetizovat vlastní aplikaci?"
+  description: ""
+  subtype: talk
+  speakers: [30]
+  language: cz
+  topic: "Business"
+-  
+  id: 035
+  title: "Reaktivní programování na Androidu"
+  description: ""
+  subtype: talk
+  speakers: []
+  language: cz
+  topic: "Android"
+- 
+  id: 036
+  title: "Staň se lídrem, staň se hrdinou"
+  description: "Chceme je, milujeme je, potřebujeme je a taky je nenávidíme.<br/><br/>Co dělá hrdinu a lídra tak výjimečnými v očích ostatních?<br/><br/>Jaká zásadní vlastnost z Tebe udělá lídra, který je následován ostatními?<br/><br/>Interaktivní workshop &quot;Staň se hrdinou, staň se lídrem&quot; Vám nabídne možnost podívat se do zákulisí a vyzkoušet si, která role Vám sedí. Během workshopu budeme v týmech pracovat s modelovými situacemi z hraní her. Využijeme Vaše herní strategie při řešení otázky vedení lidí. Odnesete si informaci, která Vám může změnit život, a dostanete od týmu HERo jeden malý, neviditelně viditelný dárek, kterého se možná budete chtít zbavit. <br/><br/> Čeká Vás: týmová práce<br/><br/>                   napětí a zábava<br/><br/>                   překonání sama sebe<br/><br/> Odnesete si: odhodlání měnit věci kolem sebe<br/><br/>                            funkční principy práce s vnitřní motivací<br/><br/>                            využívání dynamiky týmů <br/><br/>Máte kuráž? Tak přijďte ;-)"
+  subtype: workshop
+  speakers: []
+  language: cz
+  topic: "Other"
+- 
+  id: 037
+  title: "Wear R we going? (Android Wear beyond notifications)"
+  description: "Android Wear nejsou jen notifikace z telefonu na ruce. Co kdyz chceme delat s Wear vic?"
+  subtype: talk
+  speakers: [32]
+  language: cz
+  topic: "Android"
+
+

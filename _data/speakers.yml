@@ -290,13 +290,13 @@
   surname: "Shopov"
   company: "Infor"
   title: "Senior Business Analyst"
-  bio: ""
+  bio: "Technology geek trapped into the business world. Working at Infor and using scientific approaches to predict and solve business problems."
   thumbnailUrl: BogomilShopov.jpg
   section: gbg
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/bogomep"}
-    - {name: "google-plus", link: "https://plus.google.com/+BogomilShopov"}
+    - {name: "site", link: "http://talkweb.eu/"}
   order: 3
 
 - 
@@ -477,5 +477,17 @@
   bio: "Tomáš is an Android Developer at Avast and an occasional speaker about Android development. He has many years of experience developing big customer applications at Inmite before the company was acquired by Avast."
   thumbnailUrl: TomasKypta.jpg
   section: dev
+  rockstar: true
+  order: 3
+
+- 
+  id: 37
+  name: "Mise"
+  surname: "HERo"
+  company: ""
+  title: ""
+  bio: "Tým HERo<br><br>„Hrajeme hry tak, jak hrajeme život.“ Moderní společenské hry v sobě ukrývají nejen zábavu, ale i principy jednání, které se dají rozvíjet a využívat pro osobnostní růst nebo pro rozvoj dovedností, které denně používáme. <br><br>HERo využívá potenciál moderních her a za přispění zkušených lektorů a facilitátorů je aplikuje podle konkrétní potřeby firmy, týmu nebo jednotlivců při rozvoji osobnostních dovedností ve formě školení, workshopů i teambuildingů."
+  thumbnailUrl: MiseHero.jpg
+  section: other
   rockstar: true
   order: 3

@@ -207,8 +207,8 @@
   topic: "Open HW"
 -
   id: 025
-  title: "What Do Business Analysts Actually Do for Software Implementation Projects?"
-  description: "Everyone knows who the business analysts are in their organization, but not everyone knows what they actually do and what they are responsible for during software implementation projects."
+  title: "What (The Heck) Do Business Analysts Actually Do for Software Implementation Projects?"
+  description: "A Story About A Five-Legged Mule: Everyone knows who the business analysts are in their organization, but not everyone knows what they actually do and what they are responsible for during software implementation projects."
   subtype: talk
   speakers: [22]
   language: en

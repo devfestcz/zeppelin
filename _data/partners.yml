@@ -4,6 +4,11 @@
     - {name: "Google", description: "Google", link: "https://www.google.cz/about/", imageUrl: "google.svg"}
 
 - 
+  group: "Hlavní partner GeekFun"
+  elements: 
+    - {name: "Avast", description: "Avast", link: "http://www.avast.com", imageUrl: "avast.png", width: 220}
+
+- 
   group: "Hlavní partner MachineRoom"
   elements: 
     - {name: "Juicimo", description: "Juicimo", link: "http://www.juicymo.cz/", imageUrl: "juicimo.png", width: 220}

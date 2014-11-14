@@ -47,7 +47,7 @@
   topic: "Web"
 -
   id: 005
-  title: "Dart"
+  title: "Dart, Darrt, Darrrt"
   description: ""
   subtype: talk
   speakers: [6]
@@ -167,7 +167,7 @@
   topic: "Open HW"
 -
   id: 020
-  title: "Generative Design"
+  title: "Generative systems in art and design"
   description: "Explore generative systems as a possible path in design. To take the computer as a creative tool during all the process, facing it as an active bridge between the goal and the outcome. The opportunity of collaboration with autonomous systems created by the designer is not new. Although, its dissemination is poor and confused. So I invite you all to clarify it with me."
   subtype: talk
   speakers: [17]
@@ -239,7 +239,7 @@
   topic: "Business"
 -
   id: 029
-  title: ""
+  title: "O agilním vývoji produktů se zapojením zákazníků"
   description: ""
   subtype: talk
   speakers: [27 ,26]
@@ -309,5 +309,19 @@
   speakers: [32]
   language: cz
   topic: "Android"
-
-
+- 
+  id: 038
+  title: "Bringing tech innovation to Corporations"
+  description: ""
+  subtype: talk
+  speakers: []
+  language: en
+  topic: "Business"
+- 
+  id: 039
+  title: "Vývoj secure enterprise mobile apps"
+  description: ""
+  subtype: talk
+  speakers: []
+  language: cz
+  topic: "Dev"

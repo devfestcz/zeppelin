@@ -5,7 +5,7 @@
         <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
             <h4 class="schedule-table-heading">{{ day.dateReadable }}</h4>
             <div class="timeslot track-header stick-header">
-                <div class="track-header-label">Day {{ forloop.index }}</div>
+                <div class="track-header-label"></div>
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for track in day.tracks %}
                     {% assign trackColWidth = 12 | divided_by: forloop.length %}
@@ -25,10 +25,6 @@
                         {% assign startTime = timeslot.startTime | split: ":" %}
                         {{ startTime[0] }}<span>{{ startTime[1] }}</span>
                     </time>
-                    <time class="end-time" itemprop="endDate" datetime="{{ day.dateReadable }}T{{ timeslot.endTime }}">
-                        {% assign endTime = timeslot.endTime | split: ":" %}
-                        {{ endTime[0] }}<span>{{ endTime[1] }}</span>
-                    </time>
                 </div>
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for slot in timeslot.sessionIds %}
@@ -36,12 +32,14 @@
                         {% assign slotIndex = forloop.index0 %}
                         {% if slot != 404 %}
                             {% for session in site.data.sessions %}
-                                {% if slot == session.id and session.service == null %}
+                                {% if slot == session.id and session.service == null and timeslot.multi == null %}
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height" data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                                     <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                                     <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <span class="slot-topic">{{session.topic }}</span>
                                         <span class="slot-language">{{session.language | upcase}}</span>
+                                        <span class="slot-time">{{session.time }} min</span>
                                         <ul class="slot-speakers">
                                             {% for speaker in site.data.speakers %}
                                                 {% for session_speaker in session.speakers %}
@@ -57,13 +55,49 @@
                                         </ul>
                                     </div>
                                 </div>
-                                {% elsif slot == session.id and session.service != null %}
+                                {% elsif slot == session.id and session.service != null and timeslot.multi == null %}
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
                                     <div class="color-line"></div>
                                     <div class="slot-content">
                                         <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        {% if session.description != null %}
+                                        <p>{{ session.description }}</p>
+                                        {% endif %}
                                     </div>
                                 </div>
+                                {% elsif timeslot.multi != null and slot contains session.id and session.service == null %}
+                                {% assign firstSession = slot | first %}
+                                {% assign lastSession = slot | last %}
+                                {% if firstSession == session.id %}
+                                <div class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height">
+                                    <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
+                                {% endif %}
+                                    {% for s in slot %}
+                                    {% if s == session.id %}
+                                    <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}"  data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
+                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
+                                        <span class="slot-topic">{{session.topic }}</span>
+                                        <span class="slot-language">{{session.language | upcase}}</span>
+                                        <span class="slot-time">{{session.time }} min</span>
+                                        <ul class="slot-speakers">
+                                            {% for speaker in site.data.speakers %}
+                                                {% for session_speaker in session.speakers %}
+                                                    {% if session_speaker == speaker.id %}
+                                                    <li itemprop="performer"><div class="speaker-img flow-img img-circle" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})"></div>
+                                                    <p class="speaker-name">{{ speaker.name }} {{ speaker.surname }}
+                                                        <span class="speaker-position">{{ speaker.company }}</span>
+                                                    </p>
+                                                    </li>
+                                                    {% endif %}
+                                                {% endfor %}    
+                                            {% endfor %}
+                                        </ul>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                {% if lastSession == session.id %}
+                                </div>
+                                {% endif %}
                                 {% endif %}
                             {% endfor %}
                         {% else %}

@@ -1,89 +1,134 @@
 - 
-  date: "Přednášky"
-  dateReadable: "Přednášky"
+  date: "Program, část 1"
+  dateReadable: "Program, část 1"
   tracks: 
-    - {title: "P1", color: "#90be4e"}
-    - {title: "P2", color: "#03a9f4"}
-    - {title: "P3", color: "#e91e63"}
-    - {title: "P1", color: "#90be4e"}
-    - {title: "P2", color: "#03a9f4"}
-    - {title: "P3", color: "#e91e63"}
+    - {title: "Gutenberg Hall", color: "#90be4e"}
+    - {title: "Galilei Hall", color: "#03a9f4"}
+    - {title: "Da Vinci Hall", color: "#e91e63"}
+
   timeslots:
     - {
     	startTime: "09:00",
     	endTime: "09:30",
-    	sessionIds: [002, 003, 004, 002, 003, 004]
+    	sessionIds: [100]
     }
     - {
         startTime: "09:30",
         endTime: "10:15",
-        sessionIds: [003, 404, 004]
+        sessionIds: [008, 025, 018]
     }
     - {
     	startTime: "10:30",
     	endTime: "11:15",
-    	sessionIds: [001, 001, 001]
+    	sessionIds: [030, 014, 005]
     }
     - {
         startTime: "11:30",
         endTime: "12:15",
-        sessionIds: [001, 001, 001]
+        sessionIds: [004, 016, 029]
     }
     - {
-        startTime: "13:30",
-        endTime: "14:30",
-        sessionIds: [001, 001, 001]
+        startTime: "12:30",
+        endTime: "13:30",
+        sessionIds: [503, 503, 011]
     }
     - {
-        startTime: "14:45",
-        endTime: "15:30",
-        sessionIds: [001, 001, 001]
+        startTime: "13:45",
+        endTime: "14:45",
+        sessionIds: [032, 027, 503]
     }
     - {
-        startTime: "15:45",
-        endTime: "16:45",
-        sessionIds: [001, 001, 001]
+        startTime: "15:00",
+        endTime: "16:00",
+        multi: true,
+        sessionIds: [[021], [028], [009, 037]]
     }
     - {
-        startTime: "17:15",
-        endTime: "18:00",
-        sessionIds: [001, 001, 001]
+        startTime: "16:15",
+        endTime: "17:00",
+        sessionIds: [033, 038, 026]
     }
     - {
-        startTime: "18:15",
-        endTime: "19:00",
-        sessionIds: [001, 001, 001]
+        startTime: "17:00",
+        endTime: "18:45",
+        sessionIds: [307]
     }
     - {
-        startTime: "19:00",
+        startTime: "17:45",
+        endTime: "18:30",
+        sessionIds: [003, 035, 020]
+    }
+    - {
+        startTime: "18:45",
         endTime: "19:30",
+        sessionIds: [001, 019, 039]
+    }
+    - {
+        startTime: "19:30",
+        endTime: "20:00",
         sessionIds: [101]
     }
-- 
-  date: "Workshopy"
-  dateReadable: "Workshopy"
+    - {
+        startTime: "20:00",
+        endTime: "23:59",
+        sessionIds: [666]
+    }
+
+-
+  date: "Program, část 2"
+  dateReadable: "Program, část 2"
   tracks: 
-    - {title: "W1", color: "#90be4e"}
-    - {title: "W2", color: "#03a9f4"}
-    - {title: "W3", color: "#e91e63"}
-  timeslots: 
+    - {title: "Floppy Workshop", color: "#90be4e"}
+    - {title: "ZIP Workshop", color: "#03a9f4"}
+    - {title: "Compact Workshop", color: "#e91e63"}
+  timeslots:
+    - {
+        startTime: "09:00",
+        endTime: "09:30",
+        sessionIds: [100]
+    }
     - {
     	startTime: "09:30",
     	endTime: "11:30",
-    	sessionIds: [404, 002, 002]
+    	sessionIds: [010, 036, 015]
+    }
+    - {
+        startTime: "11:30",
+        endTime: "12:15",
+        sessionIds: [404, 404, 012]
     }
     - {
     	startTime: "12:30",
     	endTime: "14:30",
-    	sessionIds: [002, 003, 002]
+    	sessionIds: [006, 024, 013]
     }
     - {
-        startTime: "14:45",
-        endTime: "16:15",
-        sessionIds: [003, 002, 002]
+        startTime: "15:00",
+        endTime: "17:00",
+        sessionIds: [007, 017, 002]
     }
     - {
-    	startTime: "17:00",
-    	endTime: "18:30",
-    	sessionIds: [503, 002, 002]
+        startTime: "17:00",
+        endTime: "18:45",
+        sessionIds: [307]
+    }
+    - {
+    	startTime: "17:45",
+    	endTime: "18:45",
+    	sessionIds: [034, 022, 031]
+    }
+    - {
+        startTime: "18:45",
+        endTime: "19:30",
+        sessionIds: [023, 404, 404]
+    }
+    - {
+        startTime: "19:30",
+        endTime: "20:00",
+        sessionIds: [101]
+    }
+    - {
+        startTime: "20:00",
+        endTime: "23:59",
+        sessionIds: [666]
     }

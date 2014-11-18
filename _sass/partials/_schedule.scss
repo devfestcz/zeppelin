@@ -112,7 +112,7 @@ $small-label-width: 80px;
     font-size: 22px;
     font-weight: $regular;
     margin: 0;
-    padding-right: 20px;
+    padding-right: 40px;
     @media (max-width: 767px) {
         font-size: 18px;
     }
@@ -180,6 +180,18 @@ $small-label-width: 80px;
     }
 }
 .slot-language {
+    position: absolute;
+    font-size: 11px;
+    right: 15px;
+    top: 40px;
+}
+.slot-time {
+    position: absolute;
+    font-size: 11px;
+    right: 15px;
+    top: 60px;
+}
+.slot-topic {
     position: absolute;
     font-size: 11px;
     right: 15px;

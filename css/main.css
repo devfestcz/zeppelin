@@ -3521,27 +3521,35 @@ nav li a.current, nav li a:hover {
 .top-section-hero .jumbotron .btn {
   margin: 0 3px;
 }
+/* line 23, ../_sass/partials/_hero.scss */
+.top-section-hero .jumbotron h4 a {
+  color: inherit;
+}
+/* line 26, ../_sass/partials/_hero.scss */
+.top-section-hero .jumbotron h4 a:hover {
+  color: #03BDC0;
+}
 
-/* line 25, ../_sass/partials/_hero.scss */
+/* line 31, ../_sass/partials/_hero.scss */
 .typeout-fallback {
   display: none;
 }
-/* line 31, ../_sass/partials/_hero.scss */
+/* line 37, ../_sass/partials/_hero.scss */
 #hero-mail {
   position: absolute;
   bottom: -25px;
   right: 45px;
-}/* line 40, ../_sass/partials/_hero.scss */
+}/* line 46, ../_sass/partials/_hero.scss */
 #hero-mail .icon-email {
   width: 50px;
   height: 50px;
   fill: rgba(255, 255, 255, 0.5);
-}/* line 51, ../_sass/partials/_hero.scss */
+}/* line 57, ../_sass/partials/_hero.scss */
 #hero-mail:hover .icon-email {
   fill: white;
 }
 
-/* line 55, ../_sass/partials/_hero.scss */
+/* line 61, ../_sass/partials/_hero.scss */
 .explore {
   margin-left: -16px;
   position: absolute;
@@ -3550,7 +3558,7 @@ nav li a.current, nav li a:hover {
   -webkit-animation: callToAction 3.5s linear 0s infinite;
           animation: callToAction 3.5s linear 0s infinite;
 }
-/* line 67, ../_sass/partials/_hero.scss */
+/* line 73, ../_sass/partials/_hero.scss */
 .icon-arrow-down {
   width: 48px;
   height: 48px;
@@ -4953,7 +4961,7 @@ nav li a.current, nav li a:hover {
   font-size: 22px;
   font-weight: 300;
   margin: 0;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 /* line 123, ../_sass/partials/_schedule.scss */
 .track-header-slot, .slot {
@@ -5008,6 +5016,22 @@ nav li a.current, nav li a:hover {
 
 /* line 182, ../_sass/partials/_schedule.scss */
 .slot-language {
+  position: absolute;
+  font-size: 11px;
+  right: 15px;
+  top: 40px;
+}
+
+/* line 188, ../_sass/partials/_schedule.scss */
+.slot-time {
+  position: absolute;
+  font-size: 11px;
+  right: 15px;
+  top: 60px;
+}
+
+/* line 194, ../_sass/partials/_schedule.scss */
+.slot-topic {
   position: absolute;
   font-size: 11px;
   right: 15px;
@@ -6436,23 +6460,23 @@ nav li a.current, nav li a:hover {
     padding: 0;
   }
 
-  /* line 25, ../_sass/partials/_hero.scss */
+  /* line 31, ../_sass/partials/_hero.scss */
   .typeout-fallback {
     display: inline-block;
   }
 
-  /* line 31, ../_sass/partials/_hero.scss */
+  /* line 37, ../_sass/partials/_hero.scss */
   #hero-mail {
     bottom: 25px;
   }
 
-  /* line 40, ../_sass/partials/_hero.scss */
+  /* line 46, ../_sass/partials/_hero.scss */
   #hero-mail .icon-email {
     width: 40px;
     height: 40px;
   }
 
-  /* line 55, ../_sass/partials/_hero.scss */
+  /* line 61, ../_sass/partials/_hero.scss */
   .explore {
     margin-left: -12.5px;
     bottom: 30px;
@@ -6460,7 +6484,7 @@ nav li a.current, nav li a:hover {
             animation: none;
   }
 
-  /* line 67, ../_sass/partials/_hero.scss */
+  /* line 73, ../_sass/partials/_hero.scss */
   .icon-arrow-down {
     width: 24px;
     height: 24px;

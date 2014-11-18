@@ -30,6 +30,7 @@
   elements: 
     - {name: "Applifting", description: "Applifting", link: "http://applifting.cz/", imageUrl: "applifting.png"}
     - {name: "HobbyRobot.cz", description: "HobbyRobot.cz", link: "http://hobbyrobot.cz/", imageUrl: "hobbyrobot.png"}
+    - {name: "3Dtisk", description: "3Dtisk", link: "http://3dprint.fit.cvut.cz/", imageUrl: "3dtisk.png"}
     - {name: "MacGyver", description: "MacGyver", link: "http://macgyver.sh.cvut.cz/", imageUrl: "macgyver.png"}
     - {name: "UniPi", description: "UniPi", link: "http://unipi.technology/", imageUrl: "unipi.png"}
 
@@ -42,3 +43,4 @@
   group: "Za výrazné podpory"
   elements: 
     - {name: "Fakulta stavební ČVUT", description: "Fakulta stavební ČVUT", link: "http://www.fsv.cvut.cz/", imageUrl: "cvut.png", width: 250}
+    - {name: "BIO-DRONE INDUSTRIES", description: "BIO-DRONE INDUSTRIES", link: "http://www.bio-drone.com/", imageUrl: "bdi.png", width: 250}

@@ -43,11 +43,12 @@ navigationLinks:
  - {permalink: "/geekfun/", text: "GeekFun"}
  - {permalink: "/women-techmakers/", text: "Women Techmakers"}
  - {permalink: "/speakers/", text: "Speakeři"}
+ - {permalink: "/program/", text: "Program"}
 
 bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
+
 rightNavigationButtons:
- - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
+
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -55,8 +56,8 @@ heroTitle: "To je den plný <typeout>"
 eventDate: "Sobota 22. listopadu 2014"
 typeoutTextValues: '"zážitků", "technologií", "networkingu", "přednášek", "kódu"'
 typeoutFallback: "zážitků"
-heroButtons:
- - {link: "https://docs.google.com/forms/d/1dn2Yomh-ZI15ifqB0beSrwpBvLgr8A_y7ujVdjsIUQ0/viewform", text: "Chci se zdarma registrovat"}
+heroText: "Registrace uzavřeny. Těšíme se na vás!<br>Hledáte <a href='/program/'>program</a>?"
+
 
 # About Block
 aboutTitle: "Na co se můžu těšit na DevFestu Praha 2014?"
@@ -261,6 +262,7 @@ geekfunRows:
 
 # BusinessBuild
 aboutBusinessbuildTitle: "Budujeme ... business!"
+businessbuildSpeakersTitle: "Přednášející v BusinessBuild"
 businessbuildRows:
  - {
   title: "Budovat, realizovat",

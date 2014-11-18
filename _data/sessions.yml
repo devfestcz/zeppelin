@@ -1,18 +1,31 @@
 -
   id: 307
-  title: "Coffee Break"
+  title: "Pauza na kávu"
   place: "Hall"
   service: true
 -
   id: 503
-  title: "Lunch Break"
+  title: "Pauza na oběd"
   place: "Dining room"
+  service: true
+-
+  id: 100
+  title: "Úvodní keynote"
+  place: ""
   service: true
 -
   id: 101
   title: "Závěrečná keynote"
-  place: "Závěrečná keynote"
+  description: "GeekFun zóna"
+  place: ""
   service: true
+-
+  id: 666
+  title: "Afterparty"
+  description: "Bowling & Billiard Dejvice<br>Bílá 6, Praha 6"
+  place: "Bowling & Billiard Dejvice"
+  service: true
+
 -
   id: 001
   title: "Building Android for my Nexus"
@@ -21,6 +34,7 @@
   speakers: [1]
   language: en
   topic: "Android"
+  time: 45
 -
   id: 002
   title: "Application testing and CI integration, using Genymotion"
@@ -29,6 +43,7 @@
   speakers: [2, 3]
   language: en
   topic: "Android"
+  time: 120
 -
   id: 003
   title: "Pokročilé responzivní obrázky"
@@ -37,6 +52,7 @@
   speakers: [4]
   language: cz
   topic: "Web"
+  time: 45
 -
   id: 004
   title: "Polymer.dart + Material Design + App Engine + BigQuery - Spánek = Tisíc knih"
@@ -45,46 +61,52 @@
   speakers: [5]
   language: cz
   topic: "Web"
+  time: 45
 -
   id: 005
-  title: "Dart"
-  description: ""
+  title: "Dart, Darrt, Darrrt"
+  description: "Dart je objektově orientovaný jazyk, se kterým je možné psát webové aplikace jak pro klienta, tak pro server. Přijďte se dozvědět více informací o tom, jak si jednoduše v Dartu můžete napsat svoji příští webovou aplikaci!"
   subtype: talk
   speakers: [6]
   language: cz
   topic: "Web"
+  time: 45
 -
   id: 006
   title: "Dart Code Lab"
-  description: ""
+  description: "Přijďte si vyzkoušet jazyk Dart na jednoduchém Code Labu a zažít s námi srandu.<br><br><b>Pro účast na Code Labu je nutné mít vlastní notebook se <a href='https://www.dartlang.org/'>staženým Dartem a Dart Editorem</a>.</b>"
   subtype: workshop
   speakers: [6, 7, 5]
   language: cz
   topic: "Web"
+  time: 90
 -
   id: 007
   title: "Polymer Polytechnic: používejte vlastní HTML elementy"
-  description: "Přijďte se vyzkoušet vytvořit vlastní HTML elementy za pomocí knihovny Polymer v JavaScriptu.<br/><br/>Nezapomeňte si s sebou vzít na Code Lab vlastní notebook."
+  description: "Přijďte se vyzkoušet vytvořit vlastní HTML elementy za pomocí knihovny Polymer v JavaScriptu.<br/><br/>Nezapomeňte si s sebou vzít na Code Lab vlastní notebook.<br><br><b>Pro účast na workshopu je nutné mít nainstalovaný <a href='https://chrome.google.com/webstore/detail/chrome-dev-editor-develop/pnoffddplpippgcfjdhbmhkofpnaalpg'>Chrome Dev Editor</a>.</b>"
   subtype: workshop
   speakers: [7, 6]
   language: cz
   topic: "Web"
+  time: 90
 -
   id: 008
   title: "Unboxing UX: Design prototyping for Engineers"
   description: ""
   subtype: talk
   speakers: [8]
-  language: cz
+  language: en
   topic: "Dev"
+  time: 45
 -
   id: 009
   title: "AppEngine"
   description: ""
   subtype: talk
   speakers: [9]
-  language: en
+  language: cz
   topic: "Cloud"
+  time: 25
 -
   id: 010
   title: "Dart + StageXL = RIP(Flash)"
@@ -93,6 +115,7 @@
   speakers: [9]
   language: cz
   topic: "Dev"
+  time: 90
 -
   id: 011
   title: "Material design prakticky"
@@ -101,6 +124,7 @@
   speakers: [10]
   language: cz
   topic: "Android"
+  time: 45
 -
   id: 012
   title: "Vylepšujeme Google Mapy"
@@ -109,6 +133,7 @@
   speakers: [11]
   language: sk
   topic: "Other"
+  time: 45
 -
   id: 013
   title: "Mapathon"
@@ -117,14 +142,16 @@
   speakers: [11]
   language: sk
   topic: "Other"
+  time: 120
 -
   id: 014
-  title: "How to build Photoshop - WebGL not just for 3D / Jak postavit Photoshop - WebGL nejen pro 3D"
+  title: "How to build Photoshop - WebGL not just for 3D"
   description: "WebGL is normally associated with 3D graphics, which can seem daunting without a background in this field. However, the WebGL API is inherently 2D, merely supplying a very useful toolbox of functionality for creating 3D engines. In this talk, we'll explore how WebGL can be used to manipulate 2D graphics, by creating a simple image editing application. Through live-coding we'll see how setting up a WebGL application isn't all that complicated and can be achieved without having to reach for higher level frameworks, and how hardware accelerated image effects like color changes, deformations or blurs can be implemented in a few lines of code."
   subtype: talk
   speakers: [12]
   language: en
   topic: "Web"
+  time: 45
 -
   id: 015
   title: "Přístupnost pro kodéry"
@@ -133,6 +160,7 @@
   speakers: [13]
   language: cz
   topic: "Web"
+  time: 90
 -
   id: 016
   title: "Moje garáž, můj hrad"
@@ -141,6 +169,7 @@
   speakers: [14]
   language: cz
   topic: "Open HW"
+  time: 45
 -
   id: 017
   title: "Jak se dělá tišťák"
@@ -149,6 +178,7 @@
   speakers: [14]
   language: cz
   topic: "Open HW"
+  time: 90
 - 
   id: 018
   title: "Multi-Agentní Systémy - vybudujme si populaci na stole či v kapse!"
@@ -157,6 +187,7 @@
   speakers: [15]
   language: cz
   topic: "Open HW"
+  time: 45
 -
   id: 019
   title: "Chceme mluvit s počítačem? "
@@ -165,14 +196,16 @@
   speakers: [16]
   language: cz
   topic: "Open HW"
+  time: 45
 -
   id: 020
-  title: "Generative Design"
+  title: "Generative systems in art and design"
   description: "Explore generative systems as a possible path in design. To take the computer as a creative tool during all the process, facing it as an active bridge between the goal and the outcome. The opportunity of collaboration with autonomous systems created by the designer is not new. Although, its dissemination is poor and confused. So I invite you all to clarify it with me."
   subtype: talk
   speakers: [17]
   language: en
   topic: "Open HW"
+  time: 45
 -
   id: 021
   title: "Use your data to understand the world: extracting meaning out of free form text and beyond."
@@ -181,30 +214,34 @@
   speakers: [18]
   language: en
   topic: "Dev"
+  time: 45
 -
   id: 022
   title: "Vytvor si svoju prvú real-time aplikáciu s MeteorJS"
-  description: "Meteor je mladá, ale mocná technológia. Je možné v ňom robiť real-time aplikácie v extrémne krátkom čase. Meteor používa JavaScript na klientovi, aj na serveri. Ak vieš JavaScript, Meteor sa naučíš rýchlo.<br/><br/>Účastník workshopu musí mať základnú znalosť JavaScriptu, HTML a CSS.<br/><br/>Workshop je primárne pre používateľov MAC a Linux. Ak si dokážete Meteor rozbehať na Windowse, ste vítaní."
+  description: "Meteor je mladá, ale mocná technológia. Je možné v ňom robiť real-time aplikácie v extrémne krátkom čase. Meteor používa JavaScript na klientovi, aj na serveri. Ak vieš JavaScript, Meteor sa naučíš rýchlo.<br/><br/>Účastník workshopu musí mať základnú znalosť JavaScriptu, HTML a CSS.<br/><br/>Workshop je primárne pre používateľov MAC a Linux. Ak si dokážete Meteor rozbehať na Windowse, ste vítaní. <br><br> <b>Pro účast na workshopu je nutné mít nainstalovaný <a href='https://www.meteor.com/install'>Meteor</a>.</b>"
   subtype: workshop
   speakers: [19]
   language: sk
   topic: "Web"
+  time: 90
 -
   id: 023
-  title: "Vývojaři, firemní kultura a produktivita"
+  title: "Vývojáři, firemní kultura a produktivita"
   description: "Firemní kultura je dnes často považována za &quot;nice to have&quot;, zbytnou součást, případně vedlejší efekt zúčastněných lidí a procesů. Ukazuje se ale, že právě sofistikovaná firemní kultura obvykle odlišuje špičkové společnosti od těch průměrných. Jak je možné, že se nezkušení nováčci stávají leadery na trhu a korporátní giganti se propadají do irelevance? V přednášce si ukážeme, jaké jsou základní součásti zdravé firemní kultury, a co je možné udělat pro to, aby i u vás vzkvétala."
   subtype: talk
   speakers: [20]
   language: cz
   topic: "Business"
+  time: 45
 -
   id: 024
-  title: ""
+  title: "Body API"
   description: ""
   subtype: workshop
-  speakers: [21]
+  speakers: [21, 33]
   language: cz
   topic: "Open HW"
+  time: 90
 -
   id: 025
   title: "What (The Heck) Do Business Analysts Actually Do for Software Implementation Projects?"
@@ -213,6 +250,7 @@
   speakers: [22]
   language: en
   topic: "Business"
+  time: 45
 -
   id: 026
   title: "Kvalita jako odpovědnost celého týmu"
@@ -221,30 +259,34 @@
   speakers: [23]
   language: cz
   topic: "Business"
+  time: 45
 -
   id: 027
   title: "Postavte firmu 1: Struktura, Lidi"
   description: ""
   subtype: talk
-  speakers: []
+  speakers: [24, 25, 34, 35, 40]
   language: cz
   topic: "Business"
+  time: 60
 -
   id: 028
   title: "Postavte firmu 2: Marketing, Sales, Finance"
   description: ""
   subtype: workshop
-  speakers: []
+  speakers: [24, 25, 34, 35, 40]
   language: cz
   topic: "Business"
+  time: 60
 -
   id: 029
-  title: ""
-  description: ""
+  title: "O agilním vývoji produktů se zapojením zákazníků"
+  description: "Jaká je realita agilního vývoje? Co je podstata všech těch scrumů a kanbanů a proč to je takový problém rozhýbat? Jak do toho všeho zapadají nové buzzwordy jako Customer Development, Lean Startup a Innovation Accounting? A proč by měly zajímat i vývojáře? <br><br> <img src='/img/sessions/smutny-vesely-logo.png'>"
   subtype: talk
-  speakers: [27 ,26]
+  speakers: [27, 26]
   language: cz
   topic: "Business"
+  time: 45
 -
   id: 030
   title: "Jak dostat svůj startup mezi světovou špičku"
@@ -253,14 +295,16 @@
   speakers: [24]
   language: cz
   topic: "Business"
+  time: 45
 -
   id: 031
-  title: ""
+  title: "Jak se vyvíjí Chrome aplikace"
   description: ""
   subtype: workshop
   speakers: [28]
   language: cz
   topic: "Dev"
+  time: 60
 -
   id: 032
   title: "Elektronické hudební posezení"
@@ -269,6 +313,7 @@
   speakers: [29]
   language: cz
   topic: "Dev"
+  time: 60
 -
   id: 033
   title: "Zkrocení chaosu světa v Android aplikacích pomocí finite-state machine"
@@ -277,6 +322,7 @@
   speakers: [31]
   language: cz
   topic: "Android"
+  time: 45
 -
   id: 034
   title: "Jak monetizovat vlastní aplikaci?"
@@ -285,22 +331,25 @@
   speakers: [30]
   language: cz
   topic: "Business"
+  time: 45
 -  
   id: 035
   title: "Reaktivní programování na Androidu"
   description: ""
   subtype: talk
-  speakers: []
+  speakers: [36]
   language: cz
   topic: "Android"
+  time: 45
 - 
   id: 036
   title: "Staň se lídrem, staň se hrdinou"
   description: "Chceme je, milujeme je, potřebujeme je a taky je nenávidíme.<br/><br/>Co dělá hrdinu a lídra tak výjimečnými v očích ostatních?<br/><br/>Jaká zásadní vlastnost z Tebe udělá lídra, který je následován ostatními?<br/><br/>Interaktivní workshop &quot;Staň se hrdinou, staň se lídrem&quot; Vám nabídne možnost podívat se do zákulisí a vyzkoušet si, která role Vám sedí. Během workshopu budeme v týmech pracovat s modelovými situacemi z hraní her. Využijeme Vaše herní strategie při řešení otázky vedení lidí. Odnesete si informaci, která Vám může změnit život, a dostanete od týmu HERo jeden malý, neviditelně viditelný dárek, kterého se možná budete chtít zbavit. <br/><br/> Čeká Vás: týmová práce<br/><br/>                   napětí a zábava<br/><br/>                   překonání sama sebe<br/><br/> Odnesete si: odhodlání měnit věci kolem sebe<br/><br/>                            funkční principy práce s vnitřní motivací<br/><br/>                            využívání dynamiky týmů <br/><br/>Máte kuráž? Tak přijďte ;-)"
   subtype: workshop
-  speakers: []
+  speakers: [37]
   language: cz
   topic: "Other"
+  time: 120
 - 
   id: 037
   title: "Wear R we going? (Android Wear beyond notifications)"
@@ -309,5 +358,24 @@
   speakers: [32]
   language: cz
   topic: "Android"
+  time: 25
+- 
+  id: 038
+  title: "Bringing tech innovation to Elephants"
+  description: ""
+  subtype: talk
+  speakers: [38]
+  language: en
+  topic: "Business"
+  time: 45
+- 
+  id: 039
+  title: "Vývoj secure enterprise mobile apps"
+  description: ""
+  subtype: talk
+  speakers: [39]
+  language: cz
+  topic: "Dev"
+  time: 45
 
 

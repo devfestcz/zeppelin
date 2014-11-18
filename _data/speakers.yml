@@ -61,19 +61,19 @@
   rockstar: true
   order: 1
 
-
 - 
   id: 6
   name: "Jana"
   surname: "Moudrá"
   company: "Juicymo"
-  title: "Co-founder"
+  title: "Co-Owner, CEO"
   bio: "Jana is a co-founder of Juicymo and happy event organizer in GDG Prague/GDG ČVUT. She loves modern web technologies like Dart and HTML5. In Juicymo she does Frontend and Android development and she also designs UIs for web and mobile. Besides some speeches she organized together with Jakub Škvára two Dart + Polymer codelabs and hackathon and planning to do more because she loves helping other developers and spreading of these technologies."
   thumbnailUrl: JanaMoudra.jpg
   section: [dev, wtm]
   rockstar: true
   social: 
     - {name: "twitter", link: "https://twitter.com/Janamou"}
+    - {name: "google-plus", link: "https://plus.google.com/+JanaMoudrá/"}
   order: 3
 
 - 
@@ -81,7 +81,7 @@
   name: "Jakub"
   surname: "Škvára"
   company: "Yearbook Machine"
-  title: "Developer"
+  title: "Full stack engineer"
   bio: "Jakub is a member of GDG Prague and GDG ČVUT in Czech republic and he organised together with Jana Moudrá several Dart + Polymer code labs and hackaton. He works as frontend and backend developer for startup called Yearbook machine in London. Jakub is interested in modern Javascript frameworks, libraries and tools, Dart and loves clean code."
   thumbnailUrl: JakubSkvara.jpg
   section: dev
@@ -95,7 +95,7 @@
   id: 8
   name: "Rachel"
   surname: "Simpson"
-  company: ""
+  company: "Google"
   title: ""
   bio: "Rachel Ilan Simpson is an Interaction Designer living in Munich, Germany. She has worked as a Freelancer for Munich-based companies like DriveNow and Freeletics, as well as for a couple of award-winning Design agencies in Canada and Germany. She’s currently working for Google.<br><br>For fun, she co-founded the first German version of a “Maker Faire”, called Make Munich, and the team recently completed their second yearly fair. She also started Munich Design Jam, which brings together coders, designers, and business people to build cool products over the course of a day.<br><br>She likes playing ukelele, watching Dr. Who, and having a gin & tonic with other geeky folks."
   thumbnailUrl: RachelSimpson.jpg
@@ -123,7 +123,7 @@
   surname: "Hubálek"
   company: "Independet Mobile Apps Developer"
   title: ""
-  bio: ""
+  bio: "Tomáš Hubálek je nezávislý vývojář mobilních aplikaci.  Svoji první mobilní aplikaci napsal v roce 2002 pro platformu Palm, od té doby zkusil kde co od J2ME, přes Windows Mobile a Windows Phone 7, BlackBerry 10 až po Android.  Jeho nejznámější aplikace jsou Battery Widget Reborn, Gauge Battery Widget a Make Your Clock Widget. V únoru 2013 se jeho aplikace Battery Widget Reborn dostala až na titulní stránku Google Play. Před tím, než se mobilními aplikacemi začal živit, působil 7 let jako Java architekt v jedné nadnárodní polovodičové firmě.  Vystudoval marketing a informační management na VŠE Praha."
   thumbnailUrl: TomasHubalek.jpg
   section: dev
   rockstar: true
@@ -135,9 +135,9 @@
   id: 11
   name: "Dávid"
   surname: "Kováč"
-  company: ""
-  title: ""
-  bio: ""
+  company: "GDG Košice"
+  title: "Zakladatel"
+  bio: "Dávid je zakladateľom GDG Košice a zároveň človek ktorého zaujíma všetko o Google. Medzi časom sa stal Glass Explorerom a v neposlednom rade sa špecializuje na Google Apps for Work. Taktiež sa venuje Google MapMaker a organizácie Mapathonov po celom Česko-slovensku."
   thumbnailUrl: DavidKovac.jpg
   section: dev
   rockstar: true
@@ -194,7 +194,7 @@
   name: "Tomáš"
   surname: "Jukin"
   company: "Juicymo"
-  title: ""
+  title: "Co-Owner, CTO"
   bio: "Nadšený budovatel MAS a AI, evangelizátor Open Hardware, jazyků Ruby, Objective-C a Swift. Ve svém pracovním čase vytváří šťavnaté mobilní aplikace v Juicymu a přednáší Ruby, Rails, OOP a iOS na Unicorn College. Ve svém volném čase pořádá akce pro českou vývojářskou veřejnost v rámci GUG.cz a GDG Prague a staví Arduino roboty."
   thumbnailUrl: TomasJukin.jpg
   section: ohw
@@ -208,7 +208,7 @@
   id: 16
   name: "Jan"
   surname: "Švec"
-  company: "NTIS, Plzeň"
+  company: "NTIS"
   title: "Researcher"
   bio: "Jan Švec, Researcher v centru NTIS, Plzeň, věnuje se výzkumu a vývoji v oblasti řečových technologií. Pracuje na projektech v oblasti porozumění řeči a hlasových dialogů."
   thumbnailUrl: JanSvec.jpg
@@ -223,13 +223,16 @@
   id: 17
   name: "Pedro Pinto"
   surname: "Silva"
-  company: ""
-  title: ""
-  bio: ""
-  thumbnailUrl: unknown.png
+  company: "Juicymo"
+  title: "Designer"
+  bio: "Pedro Silva is a designer addicted to new media. He was born in Portugal although he sees the world as his work space. Currently he lives in Prague, Czech Republic. He enjoys to design for people."
+  thumbnailUrl: PedroPintoSilva.jpg
   section: ohw
   rockstar: true
-  order: 4
+  social:
+    - {name: "twitter", link: "https://twitter.com/PedroPS"}
+    - {name: "google-plus", link: "https://plus.google.com/+PedroSilvaDesign"}
+  order: 3
 
 - 
   id: 18
@@ -284,6 +287,19 @@
   section: ""
   rockstar: true
   order: 4
+
+- 
+  id: 33
+  name: "Jonáš"
+  surname: "Svatoš"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: ""
+  rockstar: true
+  order: 4
+
 - 
   id: 22
   name: "Bogomil"
@@ -344,9 +360,9 @@
   id: 26
   name: "Jan"
   surname: "Veselý"
-  company: "Inkubátor ČVUT"
-  title: "Mentor"
-  bio: ""
+  company: "Struct s.r.o."
+  title: ""
+  bio: "Honza pomáhá lidem rozjíždět projekty pomocí Lean Startup principů. Hlavním tématem jsou pro něj inovace ve vzdělávání, organizuje např. síť osobností pro inovace ve vzdělávání EduFórum a podílí se na projektech Inovátoři.cz a Laboratoř Nadace Vodafone. Více na <a href='http://vese.ly/'>http://vese.ly/</a>"
   thumbnailUrl: JanVesely.jpg
   section: gbg
   rockstar: true
@@ -361,7 +377,7 @@
   surname: "Smutný"
   company: "ING Bank Česká republika"
   title: "Agile Coach"
-  bio: ""
+  bio: "Karel Smutný je agilní kouč a programátor. Pracuje převážně pro větší firmy (zejména z finančního sektoru), kterým pomáhá zprůhlednit a zefektivnit proces vývoje software. Vyhazuje staré koberce a pomáhá zametat, co se pod nimi za léta nashromáždilo.<br><br>Ve volném čase staví z Lega a programuje se svými dětmi."
   thumbnailUrl: KarelSmutny.jpg
   section: gbg
   rockstar: true
@@ -431,20 +447,6 @@
   order: 3
 
 - 
-  id: 33
-  name: "Michal"
-  surname: "Illich"
-  company: "Wikidi"
-  title: "Founder"
-  bio: ""
-  thumbnailUrl: MichalIllich.jpg
-  section: gbg
-  rockstar: true
-  social: 
-    - {name: "twitter", link: "https://twitter.com/michalillich"}
-  order: 3
-
-- 
   id: 34
   name: "Petr"
   surname: "Šmíd"
@@ -460,8 +462,8 @@
   id: 35
   name: "Pavel"
   surname: "Doležal"
-  company: ""
-  title: ""
+  company: "netmail s.r.o."
+  title: "co-owner"
   bio: ""
   thumbnailUrl: PavelDolezal.jpg
   section: gbg
@@ -489,5 +491,41 @@
   bio: "Tým HERo<br><br>„Hrajeme hry tak, jak hrajeme život.“ Moderní společenské hry v sobě ukrývají nejen zábavu, ale i principy jednání, které se dají rozvíjet a využívat pro osobnostní růst nebo pro rozvoj dovedností, které denně používáme. <br><br>HERo využívá potenciál moderních her a za přispění zkušených lektorů a facilitátorů je aplikuje podle konkrétní potřeby firmy, týmu nebo jednotlivců při rozvoji osobnostních dovedností ve formě školení, workshopů i teambuildingů."
   thumbnailUrl: MiseHero.jpg
   section: other
+  rockstar: true
+  order: 3
+
+- 
+  id: 38
+  name: "Enrico"
+  surname: "Scopa"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: gbg
+  rockstar: true
+  order: 4
+
+- 
+  id: 39
+  name: "Aleš"
+  surname: "Teska"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: unknown.png
+  section: dev
+  rockstar: true
+  order: 4
+
+- 
+  id: 40
+  name: "Daniel"
+  surname: "Franc"
+  company: "Google"
+  title: "Developer and Startup Community Manager"
+  bio: "I am helping Google create global and regional strategies to support and leverage external communities to which Google is a partner (developer, businesses and educator communities). On a strategic level, I'm assisting in the development of specific programs and projects to reach community related goals and executing some of them on global or regional levels. On a more tactical level, I'm developing skills of external community leads and Google managers in community management and leadership by their coaching, mentoring and training."
+  thumbnailUrl: DanielFranc.jpg
+  section: gbg
   rockstar: true
   order: 3

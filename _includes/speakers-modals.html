@@ -17,8 +17,8 @@
 								{% for session_speaker in session.speakers %}
 									{% if session_speaker == speaker.id %}
 										<h4>{{ session.title }}</h4>
-										<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
-										<span class="theme-metadata"><span class="caption">Topic: </span>{{ session.topic }}</span>
+										<span class="theme-metadata"><span class="caption">Jazyk: </span>{{ session.language }}</span>
+										<span class="theme-metadata"><span class="caption">Téma: </span>{{ session.topic }}</span>
 										<p class="theme-description">{{ session.description }}</p>
 									{% endif %}
 								{% endfor %}		

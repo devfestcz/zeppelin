@@ -100,7 +100,7 @@
   time: 45
 -
   id: 009
-  title: "AppEngine"
+  title: "AppEngine pro pokročilé"
   description: ""
   subtype: talk
   speakers: [9]
@@ -236,7 +236,7 @@
 -
   id: 024
   title: "Body API"
-  description: ""
+  description: "Na workshopu si budeme hrát s biosenzory detekující svalovou aktivitu – pracovat budeme s EMG sensorem napojeným na Spark Core který si naprogramujeme přes cloudové IDE. Data ze senzorů následně uvidíme v reálném čase na webu. A možná dojde i na rozcvičku."
   subtype: workshop
   speakers: [21, 33]
   language: cz
@@ -265,7 +265,7 @@
   title: "Postavte firmu 1: Struktura, Lidi"
   description: ""
   subtype: talk
-  speakers: [24, 25, 34, 35, 40]
+  speakers: [24, 25, 34, 35, 40, 41]
   language: cz
   topic: "Business"
   time: 60
@@ -274,7 +274,7 @@
   title: "Postavte firmu 2: Marketing, Sales, Finance"
   description: ""
   subtype: workshop
-  speakers: [24, 25, 34, 35, 40]
+  speakers: [24, 25, 34, 35, 40, 41]
   language: cz
   topic: "Business"
   time: 60
@@ -308,7 +308,7 @@
 -
   id: 032
   title: "Elektronické hudební posezení"
-  description: "Elektronické hudební posezení"
+  description: "František Fuka vás seznámí s dalšími hudebními zákoutími a předvede vám také několik unikátních elektronických nástrojů, především z Japonska."
   subtype: talk
   speakers: [29]
   language: cz
@@ -326,7 +326,7 @@
 -
   id: 034
   title: "Jak monetizovat vlastní aplikaci?"
-  description: ""
+  description: "Máš vlastní appku? Bezva, ale jestli nechceš, aby tě dál živila maminka, je čas zamyslet se, jak ji monetizovat.Věrka ti ukáže, jakými cestami se dát od marketingu pro placenou verzi až po monetizaci aplikace jako reklamního prostoru třetích stran - třeba Googlu. Sestav si vlastní bitevní plán a vyraž na vítězné tažení."
   subtype: talk
   speakers: [30]
   language: cz
@@ -362,7 +362,7 @@
 - 
   id: 038
   title: "Bringing tech innovation to Elephants"
-  description: ""
+  description: "Large companies tend to have a very difficult relationship with technology, many of them spending in a bad manner their large budgets and almost all of them being allergic to innovative technologies, even if no one will openly admit it. <br><br>If you plan to work on non-traditional IT stuff in a large company, or if you want to approach one of them with a break-through technical solution, or if are just curious about how are things working there, then I hope that some of my personal experiences in working with many “Elephants” will help you to figure it out what the so-called “Top Managers” and their organizations really understand and think of all the new technologies stuff you are likely very passionate about."
   subtype: talk
   speakers: [38]
   language: en
@@ -371,7 +371,7 @@
 - 
   id: 039
   title: "Vývoj secure enterprise mobile apps"
-  description: ""
+  description: "Mobilní aplikace jsou dnes v podnikovém prostředí stále atraktivější alternativou ke klasickým SW řešením. Během přednášky se seznámíme se základní aspekty, které vývoj a dodávka takových mobilních aplikací musí zahrnovat. Cílem je předat dlouholeté zkušenosti z praxe, výhodou jsou tedy alespoň základní zkušenosti s vývojem aplikací."
   subtype: talk
   speakers: [39]
   language: cz

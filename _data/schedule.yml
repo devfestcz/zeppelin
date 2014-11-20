@@ -78,8 +78,8 @@
   date: "Program, část 2"
   dateReadable: "Program, část 2"
   tracks: 
-    - {title: "Floppy Workshop", color: "#90be4e"}
-    - {title: "ZIP Workshop", color: "#03a9f4"}
+    - {title: "ZIP Workshop", color: "#90be4e"}
+    - {title: "Floppy Workshop", color: "#03a9f4"}
     - {title: "Compact Workshop", color: "#e91e63"}
   timeslots:
     - {

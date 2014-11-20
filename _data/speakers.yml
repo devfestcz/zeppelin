@@ -283,10 +283,10 @@
   company: ""
   title: ""
   bio: ""
-  thumbnailUrl: unknown.png
-  section: ""
+  thumbnailUrl: MariaJudova.jpg
+  section: [ohw, wtm]
   rockstar: true
-  order: 4
+  order: 3
 
 - 
   id: 33
@@ -392,7 +392,7 @@
   surname: "Hyková"
   company: "Google"
   title: "Software Engineer"
-  bio: ""
+  bio: "Tereza vystudovala obor Počítačová grafika a Interakce na ČVUT v Praze a nyní pracuje pro Google, kam se vrátila po absolvování devítiměsíční stáže. Nyní je součástí týmu Chrome a má na starosti zejména vývoj webu <a href='http://chrome.com/manage'>chrome.com/manage</a>.<br><br>Ráda hodně cestuje, hraje na house a tančí argentinské tango."
   thumbnailUrl: TerezaHykova.jpg
   section: [dev, wtm]
   rockstar: true
@@ -464,7 +464,7 @@
   surname: "Doležal"
   company: "netmail s.r.o."
   title: "co-owner"
-  bio: ""
+  bio: "Pavel Doležal – Partner v Keboola s.r.o., spoluzakladatel Netmail s.r.o., investor a vizionář."
   thumbnailUrl: PavelDolezal.jpg
   section: gbg
   rockstar: true
@@ -500,23 +500,25 @@
   surname: "Scopa"
   company: ""
   title: ""
-  bio: ""
-  thumbnailUrl: unknown.png
+  bio: "Enrico Scopa, born in July 1968 in Italy, since 2007 lives in Czech Republic with his family (one wife only and 3 young daughters, 2 of them born in Prague). Passionate about technology since ever, he graduated in Electronic Engineering in Bologna and then spent 5 years at Andersen Consulting (now Accenture) mostly on custom system development and system integration work, and 15 years at McKinsey & co, becoming the Partner responsible for the Business Technology Office in Central Europe. During his career at McKinsey, he worked on Technology Management topics with over 40 companies located all over Western and Central Eastern Europe, Russia, Ukraine and South-Africa. He is now co-founder of ENRIAN Partners, a recently born company based on an innovative and rules-breaking model of design and delivery technology solutions to corporations. He loves sci fi, skiing, scuba diving, sailing, basketball, beach tennis and pancaking for the family with his Iron Man costume."
+  thumbnailUrl: EnricoScopa.jpg
   section: gbg
   rockstar: true
-  order: 4
+  order: 3
 
 - 
   id: 39
   name: "Aleš"
   surname: "Teska"
-  company: ""
-  title: ""
-  bio: ""
-  thumbnailUrl: unknown.png
+  company: "SeaCat.mobi"
+  title: "Software Engineer"
+  bio: "Aleš je zkušený vývojář softwaru. Svůj první kód napsal v 10 letech a od té doby se vývoji SW nepřetržitě věnuje (k jistému zklamání svých sportovně založených rodičů). V současné době, pracuje jako Principal Development Manager ve společnosti DHL ITS, kde má na starosti produkci mobilních aplikací pro tuto celosvětovou korporaci. Zároveň je zakládajícím vlastníkem startupu SeaCat, který se věnuje problematice bezpečnosti mobilních aplikací. Stále je také aktivním programátorem."
+  thumbnailUrl: AlesTeska.jpg
   section: dev
   rockstar: true
-  order: 4
+  social: 
+    - {name: "twitter", link: "https://twitter.com/alesteska"}
+  order: 3
 
 - 
   id: 40
@@ -526,6 +528,18 @@
   title: "Developer and Startup Community Manager"
   bio: "I am helping Google create global and regional strategies to support and leverage external communities to which Google is a partner (developer, businesses and educator communities). On a strategic level, I'm assisting in the development of specific programs and projects to reach community related goals and executing some of them on global or regional levels. On a more tactical level, I'm developing skills of external community leads and Google managers in community management and leadership by their coaching, mentoring and training."
   thumbnailUrl: DanielFranc.jpg
+  section: gbg
+  rockstar: true
+  order: 3
+
+- 
+  id: 41
+  name: "Ondřej"
+  surname: "Krátký"
+  company: "Liftago"
+  title: "Co-Founder"
+  bio: "Ondřej Krátký je spoluzakladatelem a marketingovým srdcem startupu Liftago. V roce 2009 absolvoval Fakultu mezinárodních vztahů na VŠE. Poté strávil 4 roky sbíráním zkušeností v korporátním byznysu, během kterých stihl posbírat ocenění od globálního vedení mateřské firmy i mezinárodní ocenění ze světa reklamy. Baví ho dělat věci jinak, nacházet nová řešení a mluvit do věcí, kterým vlastně nerozumí."
+  thumbnailUrl: OndrejKratky.jpg
   section: gbg
   rockstar: true
   order: 3

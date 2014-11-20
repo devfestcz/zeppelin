@@ -72,6 +72,7 @@
             transition: $base-transition;
             transform: translateY(-10px);
             word-spacing: -2px;
+            text-shadow: 1px 1px 0px #000;
             span {
                 font-weight: $extra-bold;
                 display: block;

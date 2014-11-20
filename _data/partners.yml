@@ -33,6 +33,8 @@
     - {name: "3Dtisk", description: "3Dtisk", link: "http://3dprint.fit.cvut.cz/", imageUrl: "3dtisk.png"}
     - {name: "MacGyver", description: "MacGyver", link: "http://macgyver.sh.cvut.cz/", imageUrl: "macgyver.png"}
     - {name: "UniPi", description: "UniPi", link: "http://unipi.technology/", imageUrl: "unipi.png"}
+    - {name: "GeekLab", description: "GeekLab", link: "#", imageUrl: "geeklab.png"}
+    - {name: "Infinite", description: "Infinite", link: "http://www.infinite.cz/", imageUrl: "infinite.png"}
 
 - 
   group: "Mediální partneři"

@@ -107,6 +107,15 @@ layout: compress
                 centerMap = new google.maps.LatLng({{ site.logisticsMapCenterCoordinates }}),
                 mobileCenterMap = new google.maps.LatLng({{ site.logisticsMapMobileCenterCoordinates }}),
                 icon = '{{ site.baseurl }}/img/other/map-marker.svg';
+
+        {% elsif page.permalink == '/team/' %}
+            $(document).ready(function () {
+                $('.team-member[data-link]').click( function () {
+                    if ($(arguments[0].target).parents('a').length > 0) return; /* clicked on link */
+
+                    window.location.href = $(this).data('link');
+                });
+            });
         {% endif %} 
 
         {% if page.randomSpeakers > 0 %}

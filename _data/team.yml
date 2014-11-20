@@ -1,110 +1,377 @@
 - 
-  id: 0
   name: "Jirka"
   surname: "Pénzeš"
-  title: "Garant DevFestu"
+  title: "Leader, program, řečníci"
   thumbnailUrl: JirkaPenzes.jpg
   team: core
   social: 
-    - {name: "google-plus", link: "https://google.com/+JirkaPénzeš"}
     - {name: "twitter", link: "https://twitter.com/jirkapenzes"}
+    - {name: "google-plus", link: "https://google.com/+JirkaPénzeš"}
     - {name: "github", link: "https://github.com/jirkapenzes"}
 
 - 
-  id: 1
   name: "Jan"
   surname: "Voráček"
-  title: "Asistent garanta DevFestu a garant webu"
+  title: "Web"
   thumbnailUrl: JanVoracek.jpg
   team: core
   social: 
-    - {name: "google-plus", link: "https://google.com/+JanVoráček"}
     - {name: "twitter", link: "https://twitter.com/JanVoracek"}
+    - {name: "google-plus", link: "https://google.com/+JanVoráček"}
     - {name: "github", link: "https://github.com/janvoracek"}
 
 - 
-  id: 2
   name: "Tobiáš"
   surname: "Vybíral"
-  title: "Šedá eminence DevFestu"
+  title: "Produkce, komunikace, PR"
   thumbnailUrl: TobiasVybiral.jpg
   team: core
+  social:
+    - {name: "twitter", link: "https://twitter.com/Vybrii"}
+    - {name: "google-plus", link: "https://plus.google.com/+PavelTobiášVybíral"}
 
 - 
-  id: 2
   name: "David"
   surname: "Vávra"
-  title: "Garant GeekFun sekce"
+  title: "Festival, šílenosti"
   thumbnailUrl: DavidVavra.jpg
   team: core
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+DavidVávra"}
+    - {name: "twitter", link: "https://twitter.com/destil"}
 
 - 
-  id: 3
+  name: "Filip"
+  surname: "Hráček"
+  title: "Google spojka"
+  thumbnailUrl: FilipHracek.jpg
+  team: core
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+filiphracek"}
+    - {name: "twitter", link: "https://twitter.com/filiphracek"}
+
+- 
   name: "Josef"
   surname: "Večerník"
-  title: "Garant BusinessBuild sekce"
+  title: "BusinessBuild"
   thumbnailUrl: JosefVecernik.jpg
   team: core
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+JosefVečerník"}
 
 - 
-  id: 4
+  name: "Tomáš"
+  surname: "Jukin"
+  title: "MachineRoom"
+  thumbnailUrl: TomasJukin.jpg
+  team: core
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+TomášJukin"}
+    - {name: "twitter", link: "https://twitter.com/Inza"}
+
+- 
   name: "Jana"
   surname: "Moudrá"
-  title: "Garantka sekce Women Techmakers"
+  title: "Women Techmakers"
   thumbnailUrl: JanaMoudra.jpg
   team: core
+  social:
+    - {name: "google-plus", link: "https://plus.google.com/+JanaMoudrá"}
+    - {name: "twitter", link: "https://twitter.com/Janamou"}
 
 - 
-  id: 5
-  name: "Jiří"
-  surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
-  thumbnailUrl: JiriCadek.jpg
-  team: support
+  name: "Jakub"
+  surname: "Škvára"
+  title: "Workshopy"
+  thumbnailUrl: JakubSkvara.jpg
+  team: core
   social: 
-    - {name: "google-plus", link: "https://google.com/+JiříČadek"}
+    - {name: "google-plus", link: "https://plus.google.com/+JakubSkvara"}
+    - {name: "twitter", link: "https://twitter.com/skvaros"}
+
 - 
-  id: 3
   name: "Jiří"
   surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
+  title: "CDH – Celo DevFestová Hra"
   thumbnailUrl: JiriCadek.jpg
-  team: support
+  team: core
   social: 
     - {name: "google-plus", link: "https://google.com/+JiříČadek"}
+
 - 
-  id: 3
-  name: "Jiří"
-  surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
-  thumbnailUrl: JiriCadek.jpg
-  team: support
+  name: "Jirka"
+  surname: "Korejtko"
+  title: "Technika"
+  thumbnailUrl: JirkaKorejtko.jpg
+  team: core
   social: 
-    - {name: "google-plus", link: "https://google.com/+JiříČadek"}
+    - {name: "google-plus", link: "https://plus.google.com/+JirkaKorejtko"}
+
 - 
-  id: 3
-  name: "Jiří"
-  surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
-  thumbnailUrl: JiriCadek.jpg
-  team: support
+  name: "Ondřej"
+  surname: "Kučera"
+  title: "Registrace"
+  thumbnailUrl: OndrejKucera.jpg
+  team: core
   social: 
-    - {name: "google-plus", link: "https://google.com/+JiříČadek"}
+    - {name: "google-plus", link: "https://plus.google.com/+OndrejKucera"}
+
 - 
-  id: 3
-  name: "Jiří"
-  surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
-  thumbnailUrl: JiriCadek.jpg
+  name: "Josef"
+  surname: "Cabrnoch"
+  thumbnailUrl: JosefCabrnoch.jpg
+  team: core-support
+  social: "https://plus.google.com/+JosefCabrnoch"
+
+-
+  name: "Tomáš"
+  surname: "Nývlt"
+  thumbnailUrl: TomasNyvlt.jpg
+  team: core-support
+  social: "https://plus.google.com/+TomášNývlt0"
+-
+  name: "Vojtěch"
+  surname: "Müller"
+  thumbnailUrl: VojtechMuller.jpg
+  team: core-support
+  social: "https://twitter.com/V0jtaMuller"
+-
+  name: "Eva"
+  surname: "Neuhöferová"
+  thumbnailUrl: EvaNeuhoferova.jpg
+  team: core-support
+  social: "https://plus.google.com/+EvaNeuhöferová"
+-
+  name: "Vít"
+  surname: "Listík"
+  thumbnailUrl: VitListik.jpg
+  team: core-support
+  social: "https://plus.google.com/+VítListík"
+-
+  name: "Honza"
+  surname: "Slavík"
+  thumbnailUrl: HonzaSlavik.jpg
+  team: core-support
+  social: "https://plus.google.com/+HonzaSlavík"
+-
+  name: "Amin „Ejmin“"
+  surname: "Shakery"
+  thumbnailUrl: AminShakery.jpg
+  team: core-support
+  social: "https://plus.google.com/+AminShakery"
+-
+  name: "Martin"
+  surname: "Matuna"
+  thumbnailUrl: MartinMatuna.jpg
+  team: core-support
+  social: "https://plus.google.com/+MartinMatuna"
+-
+  name: "Filip"
+  surname: "Procházka"
+  thumbnailUrl: FilipProchazka.jpg
+  team: core-support
+  social: "https://plus.google.com/+FilipJacktechProcházka"
+-
+  name: "Honza"
+  surname: "Beneš"
+  thumbnailUrl: HonzaBenes.jpg
+  team: core-support
+  social: "https://plus.google.com/+HonzaBeneš1"
+-
+  name: "Honza"
+  surname: "Kopecký"
+  thumbnailUrl: HonzaKopecky.jpg
+  team: core-support
+  social: "https://plus.google.com/+HonzaKopecký"
+-
+  name: "Jan"
+  surname: "Švehla"
+  thumbnailUrl: JanSvehla.jpg
+  team: core-support
+  social: "https://plus.google.com/+JanŠvehla"
+-
+  name: "Martin"
+  surname: "Pelant"
+  thumbnailUrl: MartinPelant.jpg
+  team: core-support
+  social: "https://plus.google.com/+MartinPelant"
+-
+  name: "Eliška"
+  surname: "Čejpová"
+  thumbnailUrl: EliskaCejpova.jpg
+  team: core-support
+  social: "https://plus.google.com/100831623369900093743"
+-
+  name: "Jakub"
+  surname: "Rajsky"
+  thumbnailUrl: JakubRajsky.jpg
+  team: core-support
+  social: "https://plus.google.com/+JakubRajskyJR"
+-
+  name: "Daniel"
+  surname: "Franc"
+  thumbnailUrl: DanielFranc.jpg
+  team: core-support
+  social: "https://plus.google.com/114523676440083927755"
+-
+  name: "Samuel"
+  surname: "Morihlatko"
+  thumbnailUrl: SamuelMorihlatko.jpg
   team: support
-  social: 
-    - {name: "google-plus", link: "https://google.com/+JiříČadek"}
-- 
-  id: 3
-  name: "Jiří"
-  surname: "Čadek"
-  title: "Asistent garanta GeekFun sekce"
-  thumbnailUrl: JiriCadek.jpg
+  social: "https://plus.google.com/+SamuelMorihlatko"
+-
+  name: "Alois"
+  surname: "Holub"
+  thumbnailUrl: AloisHolub.jpg
   team: support
-  social: 
-    - {name: "google-plus", link: "https://google.com/+JiříČadek"}
+  social: "https://plus.google.com/+AloisHolub"
+-
+  name: "Leoš"
+  surname: "Přikryl"
+  thumbnailUrl: LeosPrikryl.jpg
+  team: support
+  social: "https://plus.google.com/+LeosPrikryl"
+-
+  name: "Dávid"
+  surname: "Kováč"
+  thumbnailUrl: DavidKovac.jpg
+  team: support
+  social: https://plus.google.com/+DávidKováč
+-
+  name: "Edmund"
+  surname: "Dakoš"
+  thumbnailUrl: EdmundDakos.jpg
+  team: support
+  social: "https://plus.google.com/+EdmundDakoš"
+-
+  name: "Lukáš"
+  surname: "Cír"
+  thumbnailUrl: LukasCir.jpg
+  team: support
+  social: "https://plus.google.com/110631283049955355822"
+-
+  name: "Martin"
+  surname: "Vancl"
+  thumbnailUrl: MartinVancl.jpg
+  team: support
+  social: "https://plus.google.com/+MartinVancl"
+-
+  name: "Patrik"
+  surname: "Onderka"
+  thumbnailUrl: PatrikOnderka.jpg
+  team: support
+  social: "https://plus.google.com/+PatrikOnderka"
+-
+  name: "Radek"
+  surname: "Jiránek"
+  thumbnailUrl: RadekJiranek.jpg
+  team: support
+  social: "https://plus.google.com/110210564443034574762"
+-
+  name: "Renatka"
+  surname: "Měchurová"
+  thumbnailUrl: RenatkaMechurova.jpg
+  team: support
+  social: "https://plus.google.com/+RenatkaMěchurová"
+-
+  name: "Václav"
+  surname: "Kubernát"
+  thumbnailUrl: VaclavKubernat.jpg
+  team: support
+  social: "https://plus.google.com/115624977776240291750"
+-
+  name: "Jiří"
+  surname: "Šebele"
+  thumbnailUrl: JiriSebele.jpg
+  team: support
+  social: "https://plus.google.com/+SindriAvaruus"
+-
+  name: "Michal"
+  surname: "Gerhát"
+  thumbnailUrl: MichalGerhat.jpg
+  team: support
+  social: "https://plus.google.com/+MichalGerhát"
+-
+  name: "Tomáš"
+  surname: "Deutsch"
+  thumbnailUrl: TomasDeutsch.jpg
+  team: support
+  social: "https://plus.google.com/116147972988470808297"
+-
+  name: "Lukáš"
+  surname: "Przeczek"
+  thumbnailUrl: LukasPrzeczek.jpg
+  team: support
+  social: "https://plus.google.com/+LukášPrzeczek"
+-
+  name: "Leon"
+  surname: "Freiberg"
+  thumbnailUrl: LeonFreiberg.jpg
+  team: support
+  social: "https://plus.google.com/107199563905613982228"
+-
+  name: "Vít"
+  surname: "Klimeš"
+  thumbnailUrl: VitKlimes.jpg
+  team: support
+  social: "https://plus.google.com/+VítKlimeš"
+-
+  name: "Tomáš"
+  surname: "Lorinc"
+  thumbnailUrl: TomasLorinc.jpg
+  team: support
+  social: "https://plus.google.com/111266839713311730304"
+-
+  name: "Danny"
+  surname: "Macho"
+  thumbnailUrl: DannyMacho.PNG
+  team: support
+  social: "https://plus.google.com/+DannyMacho"
+-
+  name: "Ivet"
+  surname: "Lev"
+  thumbnailUrl: IvetLev.jpg
+  team: support
+  social: "https://plus.google.com/+IvetLev"
+-
+  name: "Martin"
+  surname: "Helešic"
+  thumbnailUrl: MartinHelesic.jpg
+  team: support
+  social: "https://plus.google.com/+MartinHelešic"
+-
+  name: "Vít"
+  surname: "Pleskot"
+  thumbnailUrl: VitPleskot.jpg
+  team: support
+  social: "https://plus.google.com/+VitPleskot"
+-
+  name: "Zdeněk"
+  surname: "Nešpor"
+  thumbnailUrl: ZdenekNespor.jpg
+  team: support
+  social: "https://plus.google.com/+ZdeněkNešpor"
+-
+  name: "Pavel"
+  surname: "Janecka"
+  thumbnailUrl: PavelJanecka.jpg
+  team: support
+  social: "https://plus.google.com/+PavelJanečka"
+-
+  name: "Matěj"
+  surname: "Horák"
+  thumbnailUrl: MatejHorak.jpg
+  team: support
+  social: "https://plus.google.com/+matejhorakzdar"
+-
+  name: "Roman"
+  surname: "Jedlička"
+  thumbnailUrl: RomanJedlicka.jpg
+  team: support
+  social: "https://plus.google.com/+RomanJedlička"
+-
+  name: "Tomáš"
+  surname: "Kacálek"
+  thumbnailUrl: TomasKacalek.jpg
+  team: support
+  social: "https://plus.google.com/+TomášKacálek"

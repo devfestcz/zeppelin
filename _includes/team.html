@@ -3,13 +3,30 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
             {% for block in site.teamBlocks %}
-            {% assign delay = forloop.index | times: 500 %}
-            <article class=" animated hiding" data-animation="fadeInUp" data-delay="{{ delay }}">
-                <h3>{{ block.title }}</h3>
-                <p class="text-left">{{ block.content }}</p>
-            </article>
+            {% assign check = forloop.index0 | modulo:2 %}
+            <div class="hackathon-row {% if check == 0 %}float-left{% else %}float-right{% endif %} col-md-12">
+                <div class="hackathon-img-wrapper animated hiding" data-animation="{% if check == 0 %}fadeInLeft{% else %}fadeInRight{% endif %}" data-delay="0">
+                    <img class="img-responsive" src="{{ site.baseurl }}/img/team/{{ block.image }}" alt="">
+                </div>
+                <div class="hackathon-details animated hiding" data-animation="{% if check == 0 %}fadeInRight{% else %}fadeInLeft{% endif %}" data-delay="0">
+                    {% if block.title != null %}<h4>{{ block.title }}</h4>{% endif %}
+                    <p>{{ block.content }}</p>
+                    
+                </div>
+            </div>
             {% endfor %}
         </div>
+        <style>
+        .photos img { width: 100%;}
+        </style>
+        <div class="col-lg-10 col-lg-offset-1 photos">
+            {% for photo in site.teamPhotos %}
+            <div class="photo col-md-eigth col-sm-4 col-xs-6" data-toggle="modal" data-target="#photoDetail-{{ forloop.index }}">
+                <img src="{{ site.baseurl }}/img/team/{{ photo }}-small.jpg">
+            </div>
+            {% endfor %}
+        </div>
+        <div style="clear: both;"></div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Core Team</h4>
             {% for teamMember in site.data.team %} {% if teamMember.team == "core" %}

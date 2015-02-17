@@ -25,9 +25,29 @@ layout: compress
     	{% include speakers-modals.html %} 
     {% endif %} 
 
-    {% if page.permalink == '/program/' %}
+    {% if page.permalink contains '/program' %}
         {% include sessions-modals.html %} 
     {% endif %} 
+
+    {% if page.permalink contains '/team' %}
+        {% for photo in site.teamPhotos %}
+        <div class="modal team-modal fade text-left people-modal" id="photoDetail-{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="close">
+                            <svg class="icon icon-cross" viewBox="0 0 32 32">
+                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+                            </svg>
+                            <div class="close-mask" data-dismiss="modal"></div>
+                        </div>
+                        <img src="{{ site.baseurl }}/img/team/{{ photo }}.jpg" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    {% endif %}
 
     {% include analytics.html %}
     

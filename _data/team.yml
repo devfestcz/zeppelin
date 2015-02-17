@@ -120,15 +120,9 @@
   name: "Josef"
   surname: "Cabrnoch"
   thumbnailUrl: JosefCabrnoch.jpg
-  team: core-support
+  team: support
   social: "https://plus.google.com/+JosefCabrnoch"
 
--
-  name: "Tomáš"
-  surname: "Nývlt"
-  thumbnailUrl: TomasNyvlt.jpg
-  team: core-support
-  social: "https://plus.google.com/+TomášNývlt0"
 -
   name: "Vojtěch"
   surname: "Müller"
@@ -154,7 +148,7 @@
   team: core-support
   social: "https://plus.google.com/+HonzaSlavík"
 -
-  name: "Amin „Ejmin“"
+  name: "Amin"
   surname: "Shakery"
   thumbnailUrl: AminShakery.jpg
   team: core-support
@@ -232,6 +226,12 @@
   team: support
   social: "https://plus.google.com/+LeosPrikryl"
 -
+  name: "Tomáš"
+  surname: "Nývlt"
+  thumbnailUrl: TomasNyvlt.jpg
+  team: support
+  social: "https://plus.google.com/+TomášNývlt0"
+-
   name: "Dávid"
   surname: "Kováč"
   thumbnailUrl: DavidKovac.jpg
@@ -265,7 +265,7 @@
   name: "Radek"
   surname: "Jiránek"
   thumbnailUrl: RadekJiranek.jpg
-  team: support
+  team: core-support
   social: "https://plus.google.com/110210564443034574762"
 -
   name: "Renatka"
@@ -283,7 +283,7 @@
   name: "Jiří"
   surname: "Šebele"
   thumbnailUrl: JiriSebele.jpg
-  team: support
+  team: core-support
   social: "https://plus.google.com/+SindriAvaruus"
 -
   name: "Michal"
@@ -324,7 +324,7 @@
 -
   name: "Danny"
   surname: "Macho"
-  thumbnailUrl: DannyMacho.PNG
+  thumbnailUrl: DannyMacho.png
   team: support
   social: "https://plus.google.com/+DannyMacho"
 -
@@ -375,3 +375,9 @@
   thumbnailUrl: TomasKacalek.jpg
   team: support
   social: "https://plus.google.com/+TomášKacálek"
+-
+  name: "Denisa"
+  surname: "Rejmontová"
+  thumbnailUrl: DenisaRejmontova.jpg
+  team: support
+  social: "https://plus.google.com/114062679996679460243"

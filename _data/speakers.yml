@@ -387,18 +387,6 @@
   order: 2
 
 - 
-  id: 28
-  name: "Tereza"
-  surname: "Hyková"
-  company: "Google"
-  title: "Software Engineer"
-  bio: "Tereza vystudovala obor Počítačová grafika a Interakce na ČVUT v Praze a nyní pracuje pro Google, kam se vrátila po absolvování devítiměsíční stáže. Nyní je součástí týmu Chrome a má na starosti zejména vývoj webu <a href='http://chrome.com/manage'>chrome.com/manage</a>.<br><br>Ráda hodně cestuje, hraje na house a tančí argentinské tango."
-  thumbnailUrl: TerezaHykova.jpg
-  section: [dev, wtm]
-  rockstar: true
-  order: 1
-
-- 
   id: 29
   name: "František"
   surname: "Fuka"

@@ -11,3 +11,20 @@
 .team-member.small-box a {
 	color: black;
 }
+
+@media (min-width: 992px) {
+  .col-md-eigth {
+    width: 12.5%;
+  }
+}
+
+.modal.team-modal .modal-dialog {
+	width: auto;
+	max-width: 90%;
+	max-height: 90%;
+}
+
+.photos .photo {
+	margin-bottom: 20px;
+	cursor: pointer;
+}

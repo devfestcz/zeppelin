@@ -1,7 +1,7 @@
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME', 'node_modules']
 source: .
 destination: _site/static
 
@@ -44,6 +44,7 @@ navigationLinks:
  - {permalink: "/women-techmakers/", text: "Women Techmakers"}
  - {permalink: "/speakers/", text: "Speakeři"}
  - {permalink: "/program/", text: "Program"}
+ - {permalink: "/team/", text: "Team"}
 
 bottomNavigationLinks:
 
@@ -203,9 +204,19 @@ showSessions: true
 
 # Team Block
 teamBlocks:
-  - {title: "O nás", content: "Jsme super senza párty parta. Vítr skoro nefouká a tak by se na první pohled mohlo zdát, že se balónky snad vůbec nepohybují. Jenom tak klidně levitují ve vzduchu. Jelikož slunce jasně září a na obloze byste od východu k západu hledali mráček marně, balónky působí jako jakási fata morgána uprostřed pouště. Zkrátka široko daleko nikde nic, jen zelenkavá tráva, jasně modrá obloha a tři křiklavě barevné pouťové balónky, které se téměř nepozorovatelně pohupují ani ne moc vysoko, ani moc nízko nad zemí. Kdyby pod balónky nebyla sytě zelenkavá tráva, ale třeba suchá silnice či beton, možná by bylo vidět jejich barevné stíny - to jak přes poloprůsvitné barevné balónky prochází ostré sluneční paprsky."}
-  - {title: "Jak jsme chystali DevFest", content: "Jenže kvůli všudy přítomné trávě jsou stíny balónků sotva vidět, natož aby šlo rozeznat, jakou barvu tyto stíny mají. Uvidět tak balónky náhodný kolemjdoucí, jistě by si pomyslel, že už tu takhle poletují snad tisíc let. Stále si víceméně drží výšku a ani do stran se příliš nepohybují. Proti slunci to vypadá, že se slunce pohybuje k západu rychleji než balónky, a možná to tak skutečně je. Nejeden filozof by mohl tvrdit, že balónky se sluncem závodí, ale fyzikové by to jistě vyvrátili. Z fyzikálního pohledu totiž balónky působí zcela nezajímavě."}
-  - {title: "Třetí odstavec", content: "Stále si víceméně drží výšku a ani do stran se příliš nepohybují. Proti slunci to vypadá, že se slunce pohybuje k západu rychleji než balónky, a možná to tak skutečně je. Nejeden filozof by mohl tvrdit, že balónky se sluncem závodí, ale fyzikové by to jistě vyvrátili. Z fyzikálního pohledu totiž balónky působí zcela nezajímavě. Nejvíc bezpochyby zaujmou děti - jedna malá holčička zrovna včera div nebrečela, že by snad balónky mohly prasknout. A co teprve ta stuha. Stuha, kterou je každý z trojice balónků uvázán, aby se nevypustil. Očividně je uvázaná dostatečně pevně, protože balónky skutečně neucházejí. To ale není nic zvláštního. Překvapit by však mohl fakt, že nikdo, snad krom toho, kdo balónky k obloze vypustil, netuší, jakou má ona stuha barvu. Je totiž tak lesklá, že za světla se v ní odráží nebe a za tmy zase není vidět vůbec. Když svítí slunce tak silně jako nyní, tak se stuha třpytí jako kapka rosy a jen málokdo vydrží dívat se na ni přímo déle než pár chvil. Jak vlastně vypadají ony balónky?."}
+  - {image: gdg.png, content: "DevFest Praha je akce, která je pořádána vývojáři pro vývojáře. A to doslova. Letos máme již třetí ročník a podobně jako v předchozích ročnících, i letos jsme se snažili udělat maximum, aby byl DevFest takový, jaký si ho představujete!"}
+  - {image: gxg.png, content: "Celý organizační tým, pod vedením hlavního organizátora, Jirky Pénzeše, posledních několik dnů nespal a vymýšlel všemožné šílenosti. Některé byly tak šílené, že se o nich nemůžeme ani zmiňovat! Organizace je pro nás dřina, ale zároveň i zábava. Náš tým je složen z řad organizátorů GUG.cz z celé České Republiky. Mimochodem, můžeš se k nám přidat – stále hledáme nové nadšence, kteří nám pomohu posunout českou komunitu o kousek dál. A příště budeš organizovat DevFest třeba s námi!"}
+  - {image: gbg.png, content: "Téma tohoto ročníku „Stavět, budovat, tvořit“ je cítit nejenom v doposud známém programu stojícím silně na workshopech a open hardware zóně, ale také v místě konání akce. Stala se jím Fakulta stavební ČVUT v Dejvicích, díky které se festival vrací na půdu vysokých škol, kde v roce 2012 startoval – na půdě jen pár desítek metrů vzdálené Fakulty strojní."}
+
+teamPhotos:
+  - team1
+  - team2
+  - team3
+  - team4
+  - team5
+  - team6
+  - team7
+  - team8
 
 # Logistics Find Way Block
 findWayTitle: "Jak se na něj dostat?"

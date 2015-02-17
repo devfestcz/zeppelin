@@ -24,6 +24,7 @@
     - {name: "czc.cz", description: "czc.cz", link: "http://czc.cz/", imageUrl: "czc.png"}
     - {name: "Svět Androida", description: "Svět Androida", link: "http://www.svetandroida.cz/", imageUrl: "sa.png"}
     - {name: "JetBrains", description: "JetBrains", link: "https://www.jetbrains.com/", imageUrl: "jetbrains.png"}
+    - {name: "Liftago", description: "Liftago", link: "https://www.liftago.com/", imageUrl: "liftago.png"}
 
 - 
   group: "Partneři MachineRoom"

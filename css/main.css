@@ -4411,6 +4411,18 @@ nav li a.current, nav li a:hover {
 .team-member.small-box a {
   color: black;
 }
+/* line 21, ../_sass/partials/_team.scss */
+.modal.team-modal .modal-dialog {
+  width: auto;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* line 27, ../_sass/partials/_team.scss */
+.photos .photo {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
 /* line 2, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect {
@@ -4516,18 +4528,18 @@ nav li a.current, nav li a:hover {
           transition-delay: .05s;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
-}/* line 98, ../_sass/partials/_zoe-effect.scss */
+}/* line 99, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect figcaption h2 span {
   font-weight: 500;
 }
-/* line 102, ../_sass/partials/_zoe-effect.scss */
+/* line 103, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect figcaption > div {
   padding: 0;
   -webkit-transform: translateY(-5px);
       -ms-transform: translateY(-5px);
           transform: translateY(-5px);
 }
-/* line 106, ../_sass/partials/_zoe-effect.scss */
+/* line 107, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect figcaption > a {
   float: right;
   margin-left: 4px;
@@ -4536,7 +4548,7 @@ nav li a.current, nav li a:hover {
   -webkit-transform: translateY(200%);
       -ms-transform: translateY(200%);
           transform: translateY(200%);
-}/* line 115, ../_sass/partials/_zoe-effect.scss */
+}/* line 116, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect figcaption .position {
   font-size: 12px;
   display: block;
@@ -4547,7 +4559,7 @@ nav li a.current, nav li a:hover {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
-/* line 120, ../_sass/partials/_zoe-effect.scss */
+/* line 121, ../_sass/partials/_zoe-effect.scss */
 .zoe-effect .bio {
   font-size: 14px;
   line-height: 1.3;
@@ -5963,6 +5975,11 @@ nav li a.current, nav li a:hover {
   .modal-lg {
     width: 900px;
   }
+
+  /* line 16, ../_sass/partials/_team.scss */
+  .col-md-eigth {
+    width: 12.5%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -6784,9 +6801,10 @@ nav li a.current, nav li a:hover {
         -ms-transform: translateY(0);
             transform: translateY(0);
     color: #3c4a50;
+    text-shadow: none;
   }
 
-  /* line 106, ../_sass/partials/_zoe-effect.scss */
+  /* line 107, ../_sass/partials/_zoe-effect.scss */
   .zoe-effect figcaption > a {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);

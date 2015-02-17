@@ -94,6 +94,7 @@ $figcaption-color: #3c4a50;
             @media (max-width: 767px) {
                 transform: translateY(0); 
                 color: #3c4a50;
+                text-shadow: none;
             }
             span {
                 font-weight: $bold;
